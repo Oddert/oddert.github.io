@@ -15,35 +15,42 @@
   
 <body>
 
-<img src='/folios/margate/img/1.jpg' class='folioImg' alt='Margate Page One'/>
-<img src='/folios/margate/img/2.jpg' class='folioImg' alt='Margate Page Two'/>
-<img src='/folios/margate/img/4.jpg' class='folioImg' alt='Margate Page Three'/>
-<img src='/folios/margate/img/5.jpg' class='folioImg' alt='Margate Page Four'/>
-<img src='/folios/margate/img/6.jpg' class='folioImg' alt='Margate Page Five'/>
-<img src='/folios/margate/img/7.jpg' class='folioImg' alt='Margate Page Six'/>
-<img src='/folios/margate/img/8.jpg' class='folioImg' alt='Margate Page Seven'/>
-<img src='/folios/margate/img/10.jpg' class='folioImg' alt='Margate Page Eight'/>
-<img src='/folios/margate/img/12.jpg' class='folioImg' alt='Margate Page Nine'/>
-<img src='/folios/margate/img/15.jpg' class='folioImg' alt='Margate Page Ten'/>
-<img src='/folios/margate/img/20.jpg' class='folioImg' alt='Margate Page Eleven'/>
-<img src='/folios/margate/img/25.jpg' class='folioImg' alt='Margate Page Twelve'/>
-<img src='/folios/margate/img/30.jpg' class='folioImg' alt='Margate Page Thirteen'/>
-<img src='/folios/margate/img/35.jpg' class='folioImg' alt='Margate Page Fourteen'/>
-<img src='/folios/margate/img/40.jpg' class='folioImg' alt='Margate Page Fiveteen'/>
-<img src='/folios/margate/img/45.jpg' class='folioImg' alt='Margate Page Sixteen'/>
-<img src='/folios/margate/img/47.jpg' class='folioImg' alt='Margate Page Seventeen'/>
-<img src='/folios/margate/img/50.jpg' class='folioImg' alt='Margate Page Eighteen'/>
-<img src='/folios/margate/img/55.jpg' class='folioImg' alt='Margate Page Nineteen'/>
-<img src='/folios/margate/img/60.jpg' class='folioImg' alt='Margate Page Twenty'/>
-<img src='/folios/margate/img/65.jpg' class='folioImg' alt='Margate Page Twenty One'/>
-<img src='/folios/margate/img/70.jpg' class='folioImg' alt='Margate Page Twenty Two'/>
-<img src='/folios/margate/img/75.jpg' class='folioImg' alt='Margate Page Twenty Three'/>
-<img src='/folios/margate/img/80.jpg' class='folioImg' alt='Margate Page Twenty Four'/>
-<img src='/folios/margate/img/85.jpg' class='folioImg' alt='Margate Page Twenty Five'/>
-<img src='/folios/margate/img/90.jpg' class='folioImg' alt='Margate Page Twenty Six'/>
-<img src='/folios/margate/img/95.jpg' class='folioImg' alt='Margate Page Twenty Seven'/>
-<img src='/folios/margate/img/100.jpg' class='folioImg' alt='Margate Page Twenty Eight'/>
-<img src='/folios/margate/img/105.jpg' class='folioImg' alt='Margate Page Twenty Nine'/>
+<img src='/folios/torch/img/1.jpg' class='folioImg' alt='Torch Page One'/>
+<img src='/folios/torch/img/5.jpg' class='folioImg' alt='Torch Page Two'/>
+<img src='/folios/torch/img/10.jpg' class='folioImg' alt='Torch Page Three'/>
+<img src='/folios/torch/img/15.jpg' class='folioImg' alt='Torch Page Four'/>
+<img src='/folios/torch/img/20.jpg' class='folioImg' alt='Torch Page Five'/>
+<img src='/folios/torch/img/25.jpg' class='folioImg' alt='Torch Page Six'/>
+<img src='/folios/torch/img/30.jpg' class='folioImg' alt='Torch Page Seven'/>
+<img src='/folios/torch/img/35.jpg' class='folioImg' alt='Torch Page Eight'/>
+<img src='/folios/torch/img/40.jpg' class='folioImg' alt='Torch Page Nine'/>
+<img src='/folios/torch/img/45.jpg' class='folioImg' alt='Torch Page Then'/>
+<img src='/folios/torch/img/50.jpg' class='folioImg' alt='Torch Page Eleven'/>
+<img src='/folios/torch/img/55.jpg' class='folioImg' alt='Torch Page Twelve'/>
+<img src='/folios/torch/img/60.jpg' class='folioImg' alt='Torch Page Thirteen'/>
+<img src='/folios/torch/img/65.jpg' class='folioImg' alt='Torch Page Fourteen'/>
+<img src='/folios/torch/img/70.jpg' class='folioImg' alt='Torch Page Fiveteen'/>
+<img src='/folios/torch/img/75.jpg' class='folioImg' alt='Torch Page Sixteen'/>
+<img src='/folios/torch/img/80.jpg' class='folioImg' alt='Torch Page Seventeen'/>
+<img src='/folios/torch/img/85.jpg' class='folioImg' alt='Torch Page Eighteen'/>
+<img src='/folios/torch/img/90.jpg' class='folioImg' alt='Torch Page NineTeen'/>
+<img src='/folios/torch/img/95.jpg' class='folioImg' alt='Torch Page Twenty'/>
+<img src='/folios/torch/img/100.jpg' class='folioImg' alt='Torch Page Twenty One'/>
+<img src='/folios/torch/img/105.jpg' class='folioImg' alt='Torch Page Twenty Two'/>
+<img src='/folios/torch/img/107.jpg' class='folioImg' alt='Torch Page Twenty Three'/>
+<img src='/folios/torch/img/110.jpg' class='folioImg' alt='Torch Page Twenty Four'/>
+<img src='/folios/torch/img/115.jpg' class='folioImg' alt='Torch Page Twenty Five'/>
+<img src='/folios/torch/img/120.jpg' class='folioImg' alt='Torch Page Twenty Six'/>
+<img src='/folios/torch/img/125.jpg' class='folioImg' alt='Torch Page Twenty Seven'/>
+<img src='/folios/torch/img/130.jpg' class='folioImg' alt='Torch Page Twenty Eight'/>
+<img src='/folios/torch/img/135.jpg' class='folioImg' alt='Torch Page Twenty Nine'/>
+<img src='/folios/torch/img/140.jpg' class='folioImg' alt='Torch Page Thirty'/>
+<img src='/folios/torch/img/145.jpg' class='folioImg' alt='Torch Page Thirty One'/>
+<img src='/folios/torch/img/150.jpg' class='folioImg' alt='Torch Page Thirty Two'/>
+<img src='/folios/torch/img/155.jpg' class='folioImg' alt='Torch Page Thirty Three'/>
+<img src='/folios/torch/img/160.jpg' class='folioImg' alt='Torch Page Thirty Four'/>
+<img src='/folios/torch/img/165.jpg' class='folioImg' alt='Torch Page Thirty Five'/>
+<img src='/folios/torch/img/170.jpg' class='folioImg' alt='Torch Page Thirty Six'/>
 
 </body>
 
