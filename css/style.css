@@ -1,0 +1,147 @@
+h1 {
+    font-family: 'Poiret One', sans-serif;
+    margin: 100px -15px 0px -15px;
+    font-size: 60pt;
+    color: #000000;
+    background-color: rgba(238, 238, 238, 0.65);
+  }
+  
+#tagline {
+    font-size: 22pt;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 40px 100px 0px 100px;
+    color: #000000;
+    background-color: rgba(238, 238, 238, 0.65);
+  }
+  
+#blockquote1 {
+    margin: 90px 80px 90px 80px;
+    color: #DDDDDD;
+}
+  
+  #page1 {
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/1b/96/d8/1b96d8409ed2d3130ae0b25fe32c404a.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #777777;
+    overflow: hidden;
+    background-attachment: fixed;
+  }
+  
+  #test-image:hover {
+    opacity: 0.5;
+  }
+  
+  #page2 {
+    background: url(https://s-media-cache-ak0.pinimg.com/564x/a5/f3/87/a5f3871094b06c7e66fb74904a61fcb2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+  }
+  
+  #page3 {
+    background: url(https://lh3.googleusercontent.com/HRdlFQSISY_1QPC1j8nkl7zayBFLB54tpqYtRhPGxa7EnuzFAJY_V9RhlhLh8iHrdA-lcuFPSlouDKPTRiwHrsGtWQ64s7CIbeP0v8CYsL2vsAiRWZyUfyzkIGRpIXjongEKFX_BrvulkU59KpiWzxyIAxIOixTqLeOhd0rTVOJyCn-A-KA5QZoDT4B5bRe2hmlG8AUa0rAQBSUihXCpkZbNoikObz6n30x9EIphRIw42HKYYddPZQ6T74aPldzVc18KC2k29F7o_-mB5i1Ehz5XoQBDEWKY2zJ3syJCOnXg7XKQZL7habW9fNKQ6oQeQ86-h52rwibHV8SraOLsbLUUAJa7WVporwX88V4PbjXQOLF-JAochSzYItuWiXGyFs5RTlxNHkdJIq0Q0_FRy4g02rSz4iqEzQS5ua0DEYlIIn07OanEBBIRAuQhHKxJVVJX-0AjUg_PQCyOo9-gPQmTFjc2ly8lPvpZ4O_FdRioO3f77JmAKmDH6MTAoxOycrs0Ctw6m3hpwTyuBTql8Z477o7srGyW1j-QSuBZ5GiR3L8-b3JBCdi7An5I0ig3tKoasEAVXHy2T5jffiKT_bA0Kp37lftO0EwsSIToVJR2-CO0mg=w516-h290-no);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+  }
+
+  #page4 {
+    background: url(https://lh3.googleusercontent.com/HRdlFQSISY_1QPC1j8nkl7zayBFLB54tpqYtRhPGxa7EnuzFAJY_V9RhlhLh8iHrdA-lcuFPSlouDKPTRiwHrsGtWQ64s7CIbeP0v8CYsL2vsAiRWZyUfyzkIGRpIXjongEKFX_BrvulkU59KpiWzxyIAxIOixTqLeOhd0rTVOJyCn-A-KA5QZoDT4B5bRe2hmlG8AUa0rAQBSUihXCpkZbNoikObz6n30x9EIphRIw42HKYYddPZQ6T74aPldzVc18KC2k29F7o_-mB5i1Ehz5XoQBDEWKY2zJ3syJCOnXg7XKQZL7habW9fNKQ6oQeQ86-h52rwibHV8SraOLsbLUUAJa7WVporwX88V4PbjXQOLF-JAochSzYItuWiXGyFs5RTlxNHkdJIq0Q0_FRy4g02rSz4iqEzQS5ua0DEYlIIn07OanEBBIRAuQhHKxJVVJX-0AjUg_PQCyOo9-gPQmTFjc2ly8lPvpZ4O_FdRioO3f77JmAKmDH6MTAoxOycrs0Ctw6m3hpwTyuBTql8Z477o7srGyW1j-QSuBZ5GiR3L8-b3JBCdi7An5I0ig3tKoasEAVXHy2T5jffiKT_bA0Kp37lftO0EwsSIToVJR2-CO0mg=w516-h290-no);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+  }
+
+  #page5 {
+    background-color: #9A59B5;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+  
+  #page2title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60pt;
+    color: black;
+    margin-top: 40px;
+    background-color: rgba(238, 238, 238, 0.65);
+  }
+  
+  .padd1 {
+    padding: 0px;
+  }
+  
+  .marg1 {
+    margin: 80px;
+  }
+  
+  img.iconhover:hover {
+    opacity: 0.3;
+  }
+
+.page3title{
+  padding: 30px 0px 0px 140px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 80pt;
+}
+
+#page4title{
+  font-family: 'Josefin Sans', snas-serif;
+  margin: 30px 0px 0px 0px;
+  font-size: 45pt;
+  color: black;
+  background-color: rgba(238, 238, 238, 0.65);
+}
+
+.bio{
+  padding: 40px;
+  font-size: 15pt;
+  background-color: rgba(238, 238, 238, 0.65);
+}
+
+.linkicon{
+  padding: 40px;
+}
+
+img.hov:hover{
+  opacity: 0.5;
+}
+
+.contactinfo{
+  font-size: 25pt;
+  color: black;
+  background-color: rgba(238, 238, 238, 0.6)
+}
+.contactfont{
+  color: white;
+  font-size: 11pt;
+}
+
+.footerfont{
+  font-size: 15pt;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: rgba(155,89,181,0.8);
+  border: none;
+  &.navbar-default .navbar-nav>li>a,
+  &.navbar-default .navbar-header .navbar-brand {
+    font-family: 'Josefin sans', sans-serif;
+    transition: color 0.3s ease-in-out;
+    color: #fefdeb; //rgba(238,238,238,0.65);
+    &:hover, &:focus, &:active {
+      color: #2D3E51;
+    }
+  }
+}
