@@ -1,181 +1,48 @@
 <!DOCTYPE html>
-<html>
-   <head>
-	   <meta name="theme-color" content="#9b42f4">
-      <script src="https://use.fontawesome.com/c98d4b8a6d.js"></script>
-	  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
-	  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Poiret+One" rel="stylesheet">
-      <title>Robin Veitch Portfolio</title>
-	  <style>
-	     ul{
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  width: 100px;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #9A59B5
-} 
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Page Modified</title>
+  <script src="https://use.fontawesome.com/c98d4b8a6d.js"></script>
 
-li {
-    float: left;
-}
-
-li a{
-  display: block;
-  width: 100px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  color: white;
-}
-
-li a:hover{
-  color: #eeeeee;
-  background-color: #8D44AD;
-}
-
-h1 {
-    font-family: 'Poiret One', sans-serif;
-    margin: 100px -15px 0px -15px;
-    font-size: 60pt;
-    color: #000000;
-    background-color: rgba(238, 238, 238, 0.65);
-  }
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Poiret+One" rel="stylesheet">
   
-  #tagline {
-    font-size: 22pt;
-    font-family: 'Josefin Sans', sans-serif;
-    margin: 40px 100px 0px 100px;
-    color: #000000;
-    background-color: rgba(238, 238, 238, 0.65);
-  }
-  
-  #blockquote1 {
-    margin: 90px 80px 90px 80px;
-    color: #DDDDDD;
-  }
-  
-  #page1 {
-    background: url(https://s-media-cache-ak0.pinimg.com/originals/1b/96/d8/1b96d8409ed2d3130ae0b25fe32c404a.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin-top: 30px;
-    color: #777777;
-  }
-  
-  #test-image:hover {
-    opacity: 0.5;
-  }
-  
-  #page2 {
-    background: url(https://s-media-cache-ak0.pinimg.com/564x/a5/f3/87/a5f3871094b06c7e66fb74904a61fcb2.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
-  
-  #page3 {
-    background: url(https://lh3.googleusercontent.com/HRdlFQSISY_1QPC1j8nkl7zayBFLB54tpqYtRhPGxa7EnuzFAJY_V9RhlhLh8iHrdA-lcuFPSlouDKPTRiwHrsGtWQ64s7CIbeP0v8CYsL2vsAiRWZyUfyzkIGRpIXjongEKFX_BrvulkU59KpiWzxyIAxIOixTqLeOhd0rTVOJyCn-A-KA5QZoDT4B5bRe2hmlG8AUa0rAQBSUihXCpkZbNoikObz6n30x9EIphRIw42HKYYddPZQ6T74aPldzVc18KC2k29F7o_-mB5i1Ehz5XoQBDEWKY2zJ3syJCOnXg7XKQZL7habW9fNKQ6oQeQ86-h52rwibHV8SraOLsbLUUAJa7WVporwX88V4PbjXQOLF-JAochSzYItuWiXGyFs5RTlxNHkdJIq0Q0_FRy4g02rSz4iqEzQS5ua0DEYlIIn07OanEBBIRAuQhHKxJVVJX-0AjUg_PQCyOo9-gPQmTFjc2ly8lPvpZ4O_FdRioO3f77JmAKmDH6MTAoxOycrs0Ctw6m3hpwTyuBTql8Z477o7srGyW1j-QSuBZ5GiR3L8-b3JBCdi7An5I0ig3tKoasEAVXHy2T5jffiKT_bA0Kp37lftO0EwsSIToVJR2-CO0mg=w516-h290-no);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
-  #page4 {
-    background: url(https://lh3.googleusercontent.com/HRdlFQSISY_1QPC1j8nkl7zayBFLB54tpqYtRhPGxa7EnuzFAJY_V9RhlhLh8iHrdA-lcuFPSlouDKPTRiwHrsGtWQ64s7CIbeP0v8CYsL2vsAiRWZyUfyzkIGRpIXjongEKFX_BrvulkU59KpiWzxyIAxIOixTqLeOhd0rTVOJyCn-A-KA5QZoDT4B5bRe2hmlG8AUa0rAQBSUihXCpkZbNoikObz6n30x9EIphRIw42HKYYddPZQ6T74aPldzVc18KC2k29F7o_-mB5i1Ehz5XoQBDEWKY2zJ3syJCOnXg7XKQZL7habW9fNKQ6oQeQ86-h52rwibHV8SraOLsbLUUAJa7WVporwX88V4PbjXQOLF-JAochSzYItuWiXGyFs5RTlxNHkdJIq0Q0_FRy4g02rSz4iqEzQS5ua0DEYlIIn07OanEBBIRAuQhHKxJVVJX-0AjUg_PQCyOo9-gPQmTFjc2ly8lPvpZ4O_FdRioO3f77JmAKmDH6MTAoxOycrs0Ctw6m3hpwTyuBTql8Z477o7srGyW1j-QSuBZ5GiR3L8-b3JBCdi7An5I0ig3tKoasEAVXHy2T5jffiKT_bA0Kp37lftO0EwsSIToVJR2-CO0mg=w516-h290-no);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
+      <link rel="stylesheet" href="css/style.css">
 
-  #page5 {
-    background-color: #9A59B5;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
   
-  #page2title {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 60pt;
-    color: black;
-    margin-top: 40px;
-    background-color: rgba(238, 238, 238, 0.65);
-  }
-  
-  .padd1 {
-    padding: 0px;
-  }
-  
-  .marg1 {
-    margin: 80px;
-  }
-  
-  img.iconhover:hover {
-    opacity: 0.3;
-  }
+</head>
 
-.page3title{
-  padding: 30px 0px 0px 140px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 80pt;
-}
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
 
-#page4title{
-  font-family: 'Josefin Sans', snas-serif;
-  margin: 30px 0px 0px 0px;
-  font-size: 45pt;
-  color: black;
-  background-color: rgba(238, 238, 238, 0.65);
-}
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+      <a class="navbar-brand navtext" href='#pageOne'>Robert Veitch</a>
+    </div>
 
-.bio{
-  padding: 40px;
-  font-size: 15pt;
-  background-color: rgba(238, 238, 238, 0.65);
-}
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href='#page1'>HOME</a></li>
+        <li><a href='#page2'>PORTFOLIO</a></li>
+        <li><a href='#page3'>ABOUT</a></li>
+        <li><a href='#page4'>CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-.linkicon{
-  padding: 40px;
-}
-
-img.hov:hover{
-  opacity: 0.5;
-}
-
-.contactinfo{
-  font-size: 25pt;
-  color: black;
-  background-color: rgba(238, 238, 238, 0.6)
-}
-.contactfont{
-  color: white;
-  font-size: 11pt;
-}
-
-.footerfont{
-  font-size: 15pt;
-}
-		  
-#testImageSmily {
-  width: 200px;
-  height: 100px;
-}
-	  </style>
-   </head>
-   <body>
-      <div class="container-fluid" id="page1">
+<div class="container-fluid" id="page1">
   <div class="row">
     <div class="col-xs-12 text-center">
-      <h1>Robin J Veitch</h1>
+      <h1>Robert J Veitch</h1>
       <p id="tagline">Product Designer ・ Student ・ Oddert</p>
       <blockquote id="blockquote1">
         <p>"That worked perfectly, exactly as we predicted. What a shame."</p>
@@ -193,7 +60,8 @@ img.hov:hover{
   </div>
   <div class="row center-block marg1">
     <div class="col-xs-5 img-thumbnail">
-      <img src="https://lh3.googleusercontent.com/KkY4GSL2XUm9wKhRQvYHJMesgVb2sIYD0-XfQqeuRV7Wf_kLyVRH0Vwu2rNUAD32zY-fdfXEQd3XTtu0x57W1JHndh0ctQXboX3xHyfgzX7zcIK8HBHz7mmdmtKAvuoPJep9n5Va6J7rSesU7KDZQB71_wQKs_5tUA02TGDF3rhpQy_PQYK__oQs5UH3zEO-VOlXwaabTTNXQoALwQBAhkKemIOYR05Z6MwMcw_C5rFJnA9zifH7nS09tT0jM1YnKmdrBQBTPFe79AzRrbM-z95u7_9uNTDvpNW4ddIYrnVk7hvPymUvCQDk0dRMgDdRCd4XYcHKCuSqw2IGbW_Zk-QK81LdHOY6BdabmEF4Gb3foGZ1e4FVqGytVf1SK57bGzqCbpEyKE3yy4H39bHGHPD4qubnmftbhtxFZ6BFPAPR4KJNVU5OYhQj1sZnRDCHMPhCu3TI6QZM3SCFVGdapXZr083H3lZ1-_hAf9FhW5cG_Jv9mJCQbu00mYPWgQSeUDwNzyqx6yr_mPOPhg70m24kvXhKfYOZ71WaKYlUFFuGNctxlh_RPRLHrUwxf5GcTjjaJpDgCvxMtmwnR-F-zW1nR_fSP46TAX0siQWqSNc3GPDPZQ=w720-h516-no" class="img-responsive iconhover" alt="Station Lighting Design">
+      <img src="https://lh3.googleusercontent.com/KkY4GSL2XUm9wKhRQvYHJMesgVb2sIYD0-XfQqeuRV7Wf_kLyVRH0Vwu2rNUAD32zY-fdfXEQd3XTtu0x57W1JHndh0ctQXboX3xHyfgzX7zcIK8HBHz7mmdmtKAvuoPJep9n5Va6J7rSesU7KDZQB71_wQKs_5tUA02TGDF3rhpQy_PQYK__oQs5UH3zEO-VOlXwaabTTNXQoALwQBAhkKemIOYR05Z6MwMcw_C5rFJnA9zifH7nS09tT0jM1YnKmdrBQBTPFe79AzRrbM-z95u7_9uNTDvpNW4ddIYrnVk7hvPymUvCQDk0dRMgDdRCd4XYcHKCuSqw2IGbW_Zk-QK81LdHOY6BdabmEF4Gb3foGZ1e4FVqGytVf1SK57bGzqCbpEyKE3yy4H39bHGHPD4qubnmftbhtxFZ6BFPAPR4KJNVU5OYhQj1sZnRDCHMPhCu3TI6QZM3SCFVGdapXZr083H3lZ1-_hAf9FhW5cG_Jv9mJCQbu00mYPWgQSeUDwNzyqx6yr_mPOPhg70m24kvXhKfYOZ71WaKYlUFFuGNctxlh_RPRLHrUwxf5GcTjjaJpDgCvxMtmwnR-F-zW1nR_fSP46TAX0siQWqSNc3GPDPZQ=w720-h516-no"
+        class="img-responsive iconhover" alt="Station Lighting Design">
     </div>
     <div class="col-xs-5 col-xs-offset-2 img-thumbnail">
       <img src="https://lh3.googleusercontent.com/owIsDU57dgJAR8L-Jy-3g-TtnoTaWOyVRUhJIGfAYqmFXf_jh5UKxT1yjixnleO5ZJZk60UjrPLEisAReL2rUBYkYxDJo2ZDrQH_MfbYgIODy1xN4xOGlPFP1sSps-o-JL_Fwvj2a9bwOoH7_WBMWu6k7ysKfk2fOKxKMiWBxI86k4F3Wms2sPyUKv3Qu6fM9OcBzW0bBxCASh1JZYX8n_SN4nEuvT2MsMej9A0__vRa3nzdl12UkoDa8GuXCCHoWJ939iEfK-_TghU3Rnrxqu0xxWXRIXX1zZKQ-vROqNZGgkivf0NeGTMda_2p62zRl1_kpWag551Se_CCAv3MvnPTVshEJE_nbnz8WmAOSI0xEdjEYuIQfTKd4FkjxenBunGtFUe2sgH5w5NtkUK5GI8We6iqIimjcamijIiivezGVKMBcUieCoX3EiU3_cLmGcb7mgdjI0XTL8BJz668oVBbjJsnBtvnvMKXZP8mmhmmGEzHZX0Ii-1LTwEo98iuNdvOE5NUmSiTfkJWi8FuATbnZIqLqPXBO_2TWpwOH8YZeWnDHnQJadhTLQ493Oee4ukUcjMSbMEn4Wn2smdv_4co97RyN-26BQjOucMIjTyPoXP1DQ=w2216-h1566-no"
@@ -218,6 +86,7 @@ img.hov:hover{
       <img src="https://s-media-cache-ak0.pinimg.com/564x/e3/b6/84/e3b68466d6757bf1a9dc0966ecf9ccf7.jpg" class="img-responsive iconhover" alt="CCV Interactive Display Table">
     </div>
   </div>
+  
   <div class="row center-block marg1">
     <div class="col-xs-5 img-thumbnail">
       <img src="https://s-media-cache-ak0.pinimg.com/564x/37/56/99/375699e69ea9ff5b2d479879096a03c0.jpg" class="img-responsive iconhover" alt="Interactive UX Lighting Design Project">
@@ -226,6 +95,16 @@ img.hov:hover{
       <img src="https://s-media-cache-ak0.pinimg.com/564x/2b/df/87/2bdf87448c5031f66f68000163ab348b.jpg" class="img-responsive iconhover" alt="'Star Trek' Tri-Dimensional Chess Set">
     </div>
   </div>
+  
+  <div class="row center-block marg1">
+    <div class="col-xs-5 img-thumbnail">
+      <img src="https://lh3.googleusercontent.com/y1HKa7BoUQ1rV3GPeBc2GMLJcU3rcMlxUHAM2_-q1jFhQxA7O26u-4bqhAOJBJH5g_uX-oaeBuCRBOT6p730E008ErBEO2GKwCMNR0oSmHlTQ2W-pydnzcnQ9ZROwU_cyQ5ONQ8u__AIjVfTS8t4iWyPv_8AjSDI2xEPMDkPwn5xffjrrS3U45sUJesx-VyfCcWMOEIrltxF9yfXZirXn_meBJwH_gC7SClphEZ2rPzwMRnHLzQ-tZ-y2vYNz-9BozfYyVgyHbDNuHw1ZbGNeMp3mlj3ySHEL9-XHhEOC4__XJq_Pu2uKPkp5Y4LPujq4-mopCjmcKkwEgOMeR8FdalbqHj09dRN1CAtQHLlFCsghN3B2BTrWjEMhvjTJ0lfvM7SxJlVambBusRVvmtMtPAZDBj_97Ok0mmlqs8WahdBdD_HIfULNvE72LGx0FOllFPiZJ-2i93ukHj53DoVTGR63aPDH_DFoNbw77UXE6t7gH6JX2SQLK8uPq_Qp6Otf5QF8LQMwc4SqbsbV3ccOlp25LXqMnQauUXAjyQuBSBRrsTKhlL13MQKTtaocx_Jiztp_112ZiPNWzVWwyIS_76gK31z0y-sJaDFg6HJZeJtXAb8rPuIgw=s720-no" class="img-responsive iconhover" alt="Blank">
+    </div>
+    <a href='https://www.howtogeek.com/248462/how-to-combine-images-into-one-pdf-file-in-windows/' target='blank'><div class="col-xs-5 col-xs-offset-2 img-thumbnail">
+      <img src="https://lh3.googleusercontent.com/cOv0xrI8J3G5R49QDWUr3IN6zQtpD0kXH1-piO-D9WEGqOE9W-AvuoZHEmmrmuhYKHo7WSaLXaZh5LrcoATP-3liGupTU3HphN9vLwkFXJ3cAP6QRBSdSJmEKLrT5avye4v0VCazocE9EMYroWwIcFYoLIzmJ4Ex6XlB7UwJljC7FXaxdfOB8S79yCAY_wR4PysiJF1WPpHfsxi5l9Af1kxWBajbAXo5BgrOIzOLb8rb-OTanbSEP2ulpsAIW7wkbyXB03c894MUHlUIwbYejnWewbnJ8ykVbuFnzb14pQEchV-MFge49lZke88HW_DDK2z5RlZvMyF6nbcOAK6Imck93NbcfP0r6vbdRxgtnfk7BEc6kNpHFqYIOBsjDQelC2tBcL7yrAdCZM3c0tYEEb3wcbG3cVdrE2Gn7N2DkvpfOE2Lw09shmUCrr7u6YbLzKOuPHwDT9g3gZO7c0gRmINSJ00xftcsxCyo3O3WXvqFgh2zRQqO0C1J3nbQrRnKOkbdFzyKdCeE47qhIXqpPs-k4r_mo9u4qmDWQ6FRR3J_GicxsEQ9VBRtsAYvIEFkC-BjFycNluletmRNWD4TJfXpxWvnDVYYvPfLJhp3GhB6yEMoSTYSAg=w2218-h1566-no" class="img-responsive iconhover" alt="The Margate Art Tour">
+      </div></a>
+  </div>
+  
 </div>
 
 <div class="container-fluid" id="page3">
@@ -284,12 +163,12 @@ img.hov:hover{
       <div class="container-fluid" style="margin: 100px 40px 0px 60px">
         <div class="row">
           <div class="col-xs-12">
-            <p class="contactinfo"><i class="fa fa-envelope"></i> robertveitch491@gmail.com</p>
+            <p class="contactinfo text-center"><i class="fa fa-envelope"></i> robertveitch491@gmail.com</p>
           </div>
         </div>
         <div class="row" style="margin-top: 40px">
           <div class="col-xs-12">
-            <p class="contactinfo"><i class="fa fa-phone"></i> (+44) 0776 7297041</p>
+            <p class="contactinfo text-center"><i class="fa fa-phone"></i> (+44) 0776 7297041</p>
           </div>
         </div>
       </div>
@@ -306,7 +185,9 @@ img.hov:hover{
         class="img-responsive" alt="Tube Map">
     </div>
     <div class="col-xs-6" style="padding: 20px 40px 0px 40px">
-      <p class="contactfont">If you’d like me to send you through my extended portfolio I’d be all too happy to do so. If you’d like to ask me anything, nothing is to silly, nothing is to serious, feel free to drop me a line. Wither you want to ask my opinion on the new tower at 1 Blackfriars or whether or not there really are a secret group of field mice controlling the entire world or perhaps you’d like to contest my assertion that Pluto is still a cherished planet despite what all those nasty scientists say. My email address is right there.</p>
+      <p class="contactfont">If you’d like me to send you through my extended portfolio I’d be all too happy to do so. If you’d like to ask me anything, nothing is to silly, nothing is to serious, feel free to drop me a line. Wither you want to ask my opinion on the new tower
+        at 1 Blackfriars or whether or not there really are a secret group of field mice controlling the entire world or perhaps you’d like to contest my assertion that Pluto is still a cherished planet despite what all those nasty scientists say. My
+        email address is right there.</p>
       <p class="contactfont">I live next to Finsbury Park sation, London. Shown here, lets meet up!</p>
     </div>
   </div>
@@ -321,12 +202,18 @@ img.hov:hover{
   </div>
 </div>
 
+<!--
 <ul>
   <li><a href="#">Home</a></li>
   <li><a href="#page2">Portfolio</a></li>
   <li><a href="#page3">Profile</a></li>
   <li><a href="#page4">Contact</a></li>
-</ul>
-	   <img src='img/testimage.jpg' alt='test image should appear here' id='testImageSmily'>
-   <body>
+</ul>   -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.7.2/jquery.smooth-scroll.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
 </html>
