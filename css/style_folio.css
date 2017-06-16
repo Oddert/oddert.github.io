@@ -112,3 +112,7 @@ h5 {
   display: inline-block;
   color: #34495e;
 }
+
+::selection {
+  background: #9a59b5;
+}
