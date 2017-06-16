@@ -4,6 +4,12 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  &.margate {
+    background-image: url(http://oddert.github.io/folios/margate/img/1.jpg);
+  }
+  &.torch {
+    background-image: url(http://oddert.github.io/folios/torch/img/175.jpg);
+  }
 }
 
 .header-img {
