@@ -139,7 +139,7 @@ img.hov:hover{
   &.navbar-default .navbar-header .navbar-brand {
     font-family: 'Josefin sans', sans-serif;
     transition: color 0.3s ease-in-out;
-    color: #ffffcc; //rgba(238,238,238,0.65);
+    color: white; //rgba(238,238,238,0.65);
     &:hover, &:focus, &:active {
       color: #2D3E51;
     }
