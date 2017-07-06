@@ -1,0 +1,21 @@
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 40px;
+}
+
+h1 {
+  font-family: 'Indie Flower';
+  font-size: 50px;
+  color: pink;
+}
+
+.red {
+  color: red;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+  color: pink;
+}
