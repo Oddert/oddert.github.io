@@ -1,0 +1,403 @@
+#header {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  z-index: 20;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  opacity: 1;
+  top: 0;
+  box-shadow: 10px 10px 30px rgba(0.8, 0.8, 0.8, 0.1);
+}
+
+#header_image {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  top: 50%;
+  transition: 0.2s linear;
+  //border: 1px solid blue;
+}
+
+#header_cover {
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+  opacity: 0;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: 0.2s linear;
+  & .navIcons p {
+    //border: 1px solid black;
+    font-family: 'poiret one', arial;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    float: right;
+    margin: 0px 20px;
+    height: 50px;
+    line-height: 50px;
+    color: #333435; //#2c2a2b;
+    transition: 0.2s linear;
+    & a:visited, a:link, a:active {
+      color: black;
+      text-decoration: none;
+    }
+    & a:hover {
+      color: #9744e8;
+      text-decoration: none;
+    }
+    &:hover {
+      color: #9744e8;
+    }
+  }
+}
+
+.navDrop {
+  cursor: pointer;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 50px;
+  line-height: 50px;
+  background-color: pruple;
+  display: none;
+  padding: 0px 10px;
+  transition: 0.2s linear;
+  & #navDrop-icon {
+    transition: 0.2s linear;
+    &.rotate {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.navDrop-menu {
+  list-style-type: none;
+  width: 100%;
+  position: fixed;
+  top: 50px;
+  background-color: white;
+  display: none;
+  & p {
+    padding: 10px;
+    margin: 0px;
+    transition: 0.2s linear;
+    & a:hover, a:visited, a:link, a:active {
+      color: black;
+      text-decoration: none;
+    }
+    &:hover {
+      background-color: #ecf0f1;
+      color: #9744e8;
+    }
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .navIcons {
+    display: none;
+  }
+  .navDrop {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 764px) {
+  .navDrop-menu {
+    display: none;
+  }
+}
+
+#page_two {
+  margin-top: 300px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#ruler {
+  border-top: 1px solid black;
+  position: relative;
+  top: 320px;
+}
+
+/*------Folio Page------*/
+
+.page_folio_title {
+  color: #2d3e50;
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+  position: relative;
+  left: 0px;
+  transform: translateY(-50%);
+  font-family: 'open sans', arial;
+  padding: 30px;
+}
+
+.folio > div > a:hover {
+  text-decoration: none;
+}
+
+.col-sm-4.project {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  & .cover {
+    background-color: rgba(0.8, 0.8, 0.8, 0.75);
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+  }
+  & .icon_title {
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(0.8, 0.8, 0.8, 0.6);
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    transform: translateY(-50%);
+    font-family: 'roboto thin', arial;
+    opacity: 0.8;
+  }
+  & .icon_desc {
+    transition: all 0.3s ease-in-out;
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    position: relative;
+    left: 0px;
+    opacity: 0;
+  }
+  &:hover {
+    & .cover {
+      opacity: 1;
+    }
+    & .icon_title {
+      background-color: rgba(0.8, 0.8, 0.8, 0);
+      transform: translateY(0%);
+      margin-top: 15px;
+      opacity: 1;
+    }
+    & .icon_desc {
+      opacity: 1;
+      margin-top: 15%;
+    }
+  }
+  &.station {
+    background-image: url('https://oddert.github.io/folios/station/img/station_banner.jpg');
+  }
+  &.longevity {
+    background-image: url('https://goo.gl/qtFQKB');
+  }
+  &.sparda {
+    background-image: url('https://oddert.github.io/folios/sparda/img/sparda_banner.jpg');
+  }
+  &.margate {
+    background-image: url('https://goo.gl/oEyn6i');
+  }
+  &.fusion {
+    background-image: url('https://oddert.github.io/folios/fusion/img/fusion_banner.png');
+  }
+  &.thematic {
+    background-image: url('https://oddert.github.io/folios/thematic/img/thematic_banner.png');
+  }
+  &.victorinox {
+    background-image: url('https://oddert.github.io/folios/victorinox/img/victorinox_banner.png');
+  }
+  &.ccv {
+    background-image: url('https://oddert.github.io/folios/ccv/img/ccv_banner.jpg');
+  }
+  &.adv_art {
+    background-image: url('https://s-media-cache-ak0.pinimg.com/564x/37/56/99/375699e69ea9ff5b2d479879096a03c0.jpg');
+  }
+  &.trid {
+    background-image: url('https://s-media-cache-ak0.pinimg.com/564x/2b/df/87/2bdf87448c5031f66f68000163ab348b.jpg');
+  }
+  &.arkwright {
+    background-image: url('https://oddert.github.io/folios/arkwright/img/arkwright_banner.jpg');
+  }
+  &.dog {
+    background-image: url('https://oddert.github.io/folios/higher_assignment/img/higher_assignment_banner.jpg');
+  }
+  &.recipies {
+    background-image: url('https://oddert.github.io/folios/code/img/recipe_book_banner.PNG');
+  }
+  &.XO {
+    background-image: url('https://oddert.github.io/folios/code/img/tic_tac_toe_banner.PNG');
+  }
+  &.simon {
+    background-image: url('https://oddert.github.io/folios/code/img/simon_banner.PNG');
+  }
+  &.leaderBoard {
+    background-image: url('https://oddert.github.io/folios/code/img/fcc_leader_board_banner.PNG');
+  }
+  &.calc {
+    background-image: url('https://oddert.github.io/folios/code/img/js_calculator_banner.PNG');
+  }
+  &.moreCode {
+    background-image: url('https://github.com/Oddert/oddert.github.io/blob/master/folios/code/img/more_code_projects.png?raw=true');
+  }
+}
+.green {
+  background-color: rgba(39, 174, 97, 0.3);
+}
+
+.folio_code_sep {
+  box-shadow: 0px 0px 30px rgba(0.8, 0.8, 0.8, 0.1);
+  padding: 10px;
+  margin: 80px;
+  border-radius: 20px;
+  white-space: pre-line;
+}
+
+#page_profile>.content {
+  margin-top: 50px;
+}
+
+.page_profile-header-text {
+  white-space: pre-line;
+  font-size: 30px;
+}
+
+.page_profile-header-image>img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px 0px;
+  box-shadow: 10px 10px 30px rgba(0.8,0.8,0.8,0.2);
+}
+
+.page_profile-bio {
+  padding: 10px;
+  & .page_profile-bio-text {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    white-space: pre-line;
+    font-family: verdana, arial;
+    font-size: 20px;
+    background-color: #F4F4F4;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+.page_profile-bio-text {
+  
+}
+
+.page_profile-links-box {
+  margin: 80px 0px;
+}
+
+.page_profile-links {
+  margin-top: 20px;
+}
+
+.social_media_box-container {
+  &>p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #bec3c7;
+    position: absolute;
+    bottom: 30;
+    left: 20;
+  }
+}
+
+.social_media_box {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0.8, 0.8, 0.8, 0.1);
+  &:hover {
+    & .social-media-item {
+      width: 10%;
+    }
+  }
+  & .social-media-item:hover {
+    width: 70%;
+  }
+}
+
+.social-media-item {
+  line-height: 50px;
+  width: 25%;
+  float: left;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  transition: 0.25s linear;
+  &.social-media-one {
+    background-color: #0077B5;
+    color: #FFFFFF;
+  }
+  &.social-media-two {
+    background-color: #FFFFFF;
+    color: #24292E;
+  }
+  &.social-media-three {
+    background-color: #006400;
+    color: #FFFFFF;
+  }
+  &.social-media-four {
+    background-color: #3B5998;
+    color: #FFFFFF;
+  }
+}
+
+.footer_main {
+  padding: 20px;
+  box-shadow: 0px -15px 20px rgba(0.8,0.8,0.8,0.1);
+}
+
+
+.anim {
+  visibility: hidden;
+}
+
+.anim_active {
+  animation-name: glide;
+  animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes glide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.divider {
+  width: 100%;
+  border: 5px dashed red;
+}
