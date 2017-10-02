@@ -206,6 +206,8 @@ var SocialMediaComp = React.createClass({
 
 ReactDOM.render(React.createElement(SocialMediaComp, null), document.getElementById('page_profile-social_media_box'));
 
+$('.smooth').smoothScroll();
+
 /*
 Hi, my name is Robin Veitch and I’m a problem solver.
         
