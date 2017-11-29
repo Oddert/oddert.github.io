@@ -101,6 +101,7 @@
 .pageOne .testImg {
   position: absolute;
   top: 50px;
+  right: 10px;
   width: 100%;
 }
 
