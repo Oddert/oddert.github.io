@@ -122,10 +122,11 @@
   padding: 80px 80px 80px 80px;
 }
 .pageTwo .pageTwo-block-container .pageTwo-block.pageTwo-text p {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .pageTwo .pageTwo-block-container .flow-chart {
   vertical-align: top;
+  width: 45vw;
 }
 
 .pageThree {
