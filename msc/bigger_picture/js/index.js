@@ -530,7 +530,7 @@ var Footer = React.createClass({
         React.createElement(
           "p",
           { className: "footer-text-one" },
-          "A website designed and created by Robyn Veitch, Camille Roded, Max Master and Lucas."
+          "A website designed and created by Robyn Veitch, Camille Roded, Max Master and Yilin Lu."
         ),
         React.createElement(
           "p",
