@@ -471,7 +471,7 @@ var Footer = React.createClass({
       <div>
         <div className="footer-container">
           
-          <p className="footer-text-one">A website designed and created by Robyn Veitch, Camille Roded, Max Master and Lucas.</p>
+          <p className="footer-text-one">A website designed and created by Robyn Veitch, Camille Roded, Max Master and Yilin Lu.</p>
           <p className="footer-text-two"><i className="fa fa-copyright"></i> Copyright <a href='https://oddert.github.io/'>Robyn Veitch</a> 2017 all rights reserved.</p>
           
           <div className="footer-links">
