@@ -202,6 +202,12 @@
   opacity: 1;
   margin-top: 15%;
 }
+.col-sm-4.project.polymat {
+  background-image: url("https://oddert.github.io/folios/polymat/img/polymat_banner.jpg");
+}
+.col-sm-4.project.zugriff {
+  background-image: url("https://oddert.github.io/folios/zugriff/img/zugriff_banner.jpg");
+}
 .col-sm-4.project.station {
   background-image: url("https://oddert.github.io/folios/station/img/station_banner.jpg");
 }
