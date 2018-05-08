@@ -245,12 +245,12 @@
   background-image: url("https://oddert.github.io/folios/higher_assignment/img/higher_assignment_banner.jpg");
 }
 .col-sm-4.project.dungeon {
-  background-image: url("https://oddert.github.io/folios/code/img/dungeon_crawler.PNG");
+  background-image: url("https://oddert.github.io/folios/code/img/dungeon_crawler_banner.PNG");
 }
 .col-sm-4.project.vote {
   background-image: url("https://oddert.github.io/folios/code/img/nightlife_app_banner.PNG");
 }
-.col-sm-4.project.nightlfe {
+.col-sm-4.project.nightlife {
   background-image: url("https://oddert.github.io/folios/code/img/voting_app_banner.PNG");
 }
 .col-sm-4.project.recipies {
