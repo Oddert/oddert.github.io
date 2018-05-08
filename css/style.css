@@ -244,6 +244,15 @@
 .col-sm-4.project.dog {
   background-image: url("https://oddert.github.io/folios/higher_assignment/img/higher_assignment_banner.jpg");
 }
+.col-sm-4.project.dungeon {
+  background-image: url("https://oddert.github.io/folios/code/img/dungeon_crawler.PNG");
+}
+.col-sm-4.project.vote {
+  background-image: url("https://oddert.github.io/folios/code/img/nightlife_app_banner.PNG");
+}
+.col-sm-4.project.nightlfe {
+  background-image: url("https://oddert.github.io/folios/code/img/voting_app_banner.PNG");
+}
 .col-sm-4.project.recipies {
   background-image: url("https://oddert.github.io/folios/code/img/recipe_book_banner.PNG");
 }
