@@ -262,8 +262,8 @@
 .col-sm-4.project.simon {
   background-image: url("https://oddert.github.io/folios/code/img/simon_banner.PNG");
 }
-.col-sm-4.project.leaderBoard {
-  background-image: url("https://oddert.github.io/folios/code/img/fcc_leader_board_banner.PNG");
+.col-sm-4.project.stock {
+  background-image: url("/folios/code/img/stock_banner.PNG");
 }
 .col-sm-4.project.calc {
   background-image: url("https://oddert.github.io/folios/code/img/js_calculator_banner.PNG");
