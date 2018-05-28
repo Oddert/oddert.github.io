@@ -211,8 +211,8 @@
 .col-sm-4.project.station {
   background-image: url("/folios/station/img/station_banner.jpg");
 }
-.col-sm-4.project.longevity {
-  background-image: url("https://goo.gl/qtFQKB");
+.col-sm-4.project.root {
+  background-image: url("/folios/root_to_root/img/root_to_root_banner.jpg");
 }
 .col-sm-4.project.sparda {
   background-image: url("/folios/sparda/img/sparda_banner.jpg");
@@ -243,6 +243,9 @@
 }
 .col-sm-4.project.dog {
   background-image: url("/folios/higher_assignment/img/higher_assignment_banner.jpg");
+}
+.col-sm-4.project.longevity {
+  background-image: url("https://goo.gl/qtFQKB");
 }
 .col-sm-4.project.dungeon {
   background-image: url("/folios/code/img/dungeon_crawler_banner.PNG");
