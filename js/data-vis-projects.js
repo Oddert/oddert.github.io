@@ -37,6 +37,13 @@ const data = [
     img: 'https://lh3.googleusercontent.com/wryffYo5m9jA02Zbgq4wDPc9sqooCs4qL9x58OR_5UX4dfiU5rOkIpJzD04pWL3nKHi9CqPlsVBKz1DZGd9MuSP0Q32myZPzCeUeyghvxaitEzkXOYYBl7QWId4C6uPw0TOhMwxML-gl8Jj9v0bGbjilGSpTPm0FIr2p5ncLUFcyaa7wPp-0Y8BzXqwjoHgunCwoGvMzB2wAP_0A9OSisl6H0GQz5AK7QoOO_-kWpVobx0uSHlUbFWVviaLTfkx6-HfW_zDwRJBZNF5ovjn4Zb1kRtTxMHAw8EivJ-PmaJHP-kyrGP1w_mS7ZMvZ60Oh5QboJtvSLoo1_NyJL9L6hpwyOYS3Y_djjxmGd0LaBExmStm95mckmdgRLpMD0gQstQIobe0yhABjvDnih9XojNxiSOg61WqK0pgmeSPuANSfjX2Zpl_0_ah9E_oTLc8tPbLmcj0g6F7KJNjByAHV6ZFxruKvi4PX0jRhEipgoFG8FGdD_6jnbsmuSUUJyMSMN8bhvonEa5GMNpQ-KIUCUeV_ApXlF7KRbIkA8x7ULNCBOP_FvP8ykGJmW94iEtdUtsDxQj0Uhwaqnkj1U2kYseGmvk7AyOoWC_Dj399h=w1364-h776-no',
     alt: 'World meteor map',
     link: 'https://codepen.io/Oddert/full/zjvaXZ/'
+  },
+  {
+    title: 'Stock Market Tracker',
+    description: 'A full-stack app to show historical and real time data for selected stocks, syncing the display options between users. \n This means that ass users add and remove stocks, everyone else will see the app update in real time. This could be used in meetings to let everyone see the same data on their individual devices. Live data is provided with websockets and data from IEX.',
+    img: 'https://lh3.googleusercontent.com/c9XXcNJq0SBdM5Px2k8QDQI_eHqN9HKsddVJ9SZqe-SHbBvXgF1Rpr7-1cFNsS3l3v4hvgRUFjOWFFMv4fFfgmS8igqo54QmIEi5UK0PwdRkl8j2CzChUe7MhHoOaiVXU2uxLpX33SxuR7Hx7qQhmFMGYK7K7P6H35sa3qLu_xA1b_Pv1QNrC5dM1XCz5Wg8GGdepFykcBJHu8k-OMl4rypvfpOv6ZA3pxZQcog1BUadKs3FeVnn_Jf66SFYlYwrYcvE5_nExXA3oD7HD7z6xdCttpiQXRZW7F63tIVwq-aJiqMgu9H4SBc0psaupNFZU-Bf20ZHYr1eNdpk9TzBU8tfcVuMuppcRNhbdcVtXTcEu6ZZv36avymP6D4XvMtCeFbnSDlP0ZSZSTKhZlooVchCAA5qFr56MxZCyQwPVgt_ePDzUv2PUyK8lNqGNvVcYtOqmJ-YFhTmU3_8-95NJRrA1awnrwUY3ZRq_te8JIfgtXNqX1illqDW7Yz5kjZcun2k8MfvQwB6l2nTj0xCHJk4iW_CHxOtRvv7GGVD9GW4W5Lmc73T-sYLchi-uI_RQGfkFmnQWFrzL2GJ5jBu7PVUaV-e54qt1_tYVuZt=w1366-h702-no',
+    alt: 'Stock market tracker',
+    link: 'https://glitch.com/edit/#!/crimson-bandana?path=README.md:1:0'
   }
 ];
 
