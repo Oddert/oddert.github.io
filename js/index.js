@@ -148,7 +148,7 @@ var SocialMediaComp = React.createClass({
   },
   updateFB: function updateFB() {
     this.setState({
-      text: 'https://www.facebook.com/robert.veitch.10?ref=bookmarks'
+      text: 'https://www.facebook.com/robyn.veitch.10?ref=bookmarks'
     });
   },
   render: function render() {
@@ -210,14 +210,14 @@ $('.smooth').smoothScroll();
 
 /*
 Hi, my name is Robin Veitch and I’m a problem solver.
-        
+
         I’m a student studying Product Design at Central Saint Martins, UAL while learning web and app development through Free Code Camp.
-        
+
         I am and have always been a designer, seeing patterns and connections
-        and seeking solutions to problems, knowledge and experiences to be a better person than the day before. 
-        
-        Problem solving is, in my estimation, the essence of design an elaboration of which can be read <a href='#' class="linkStyle">here</a>. 
-        
+        and seeking solutions to problems, knowledge and experiences to be a better person than the day before.
+
+        Problem solving is, in my estimation, the essence of design an elaboration of which can be read <a href='#' class="linkStyle">here</a>.
+
         I graduated high school in Scotland in 2015 having studied such subjects as Product Design, Graphic Communication, Art, Maths, Physics and English. Since then I have been situated in London studying at UAL: CSM.
         */
 
