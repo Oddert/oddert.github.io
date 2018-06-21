@@ -74,6 +74,8 @@ $('.project').each(function () {
   $(this).addClass('anim');
 }); //couldn't be bothered adding manually
 
+$('.page_profile-bio-text').each(() => {$(this).addClass('anim')}); //Past oddert actually saved yer arse by adding anim after load
+
 $('section').each(function () {
   var winHeight = $(window).height();
   var thisHeight = $(this).find('.content').outerHeight();
