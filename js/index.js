@@ -1,7 +1,7 @@
 'use strict';
 
 var logoNoText = 'https://oddert.github.io/img/logo_no_text.png';
-var logoText = 'https://oddert.github.io/img/logo_four.png';
+var logoText = 'https://oddert.github.io/img/logo_five.png';
 
 var headerInitHeight, headerShrink;
 
