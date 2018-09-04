@@ -44,7 +44,6 @@ const data = [
     img: 'https://lh3.googleusercontent.com/c9XXcNJq0SBdM5Px2k8QDQI_eHqN9HKsddVJ9SZqe-SHbBvXgF1Rpr7-1cFNsS3l3v4hvgRUFjOWFFMv4fFfgmS8igqo54QmIEi5UK0PwdRkl8j2CzChUe7MhHoOaiVXU2uxLpX33SxuR7Hx7qQhmFMGYK7K7P6H35sa3qLu_xA1b_Pv1QNrC5dM1XCz5Wg8GGdepFykcBJHu8k-OMl4rypvfpOv6ZA3pxZQcog1BUadKs3FeVnn_Jf66SFYlYwrYcvE5_nExXA3oD7HD7z6xdCttpiQXRZW7F63tIVwq-aJiqMgu9H4SBc0psaupNFZU-Bf20ZHYr1eNdpk9TzBU8tfcVuMuppcRNhbdcVtXTcEu6ZZv36avymP6D4XvMtCeFbnSDlP0ZSZSTKhZlooVchCAA5qFr56MxZCyQwPVgt_ePDzUv2PUyK8lNqGNvVcYtOqmJ-YFhTmU3_8-95NJRrA1awnrwUY3ZRq_te8JIfgtXNqX1illqDW7Yz5kjZcun2k8MfvQwB6l2nTj0xCHJk4iW_CHxOtRvv7GGVD9GW4W5Lmc73T-sYLchi-uI_RQGfkFmnQWFrzL2GJ5jBu7PVUaV-e54qt1_tYVuZt=w1366-h702-no',
     alt: 'Stock market tracker',
     link: 'https://glitch.com/edit/#!/crimson-bandana?path=README.md:1:0'
-  }
   },
   {
     title: 'Product Category Tree Map',
@@ -52,7 +51,6 @@ const data = [
     img: 'https://lh3.googleusercontent.com/FpJXAGDdzqwkZeCUcpp0KPuOrRmURDdj1zQkriBrj1n2ivBgN5eqpiHMFUa0QTdwv0J6l830S99V4VfLqL1vm8ZhykQTmujFD-cKz4tEygxbvwfKfVZcG9oIkzS1Godvu_dxMM1GuGwIo-t8aVeV-zDPF_6QBZJVjKMkQnUcnVjsM7qdFNifAEFikKgzDpO12sueYjOJVKU3QALSDRy3WryUbPLWa88v50883ZmZa-ju8CrRyYCHOO9Wx6DJ5_U6cva5LNZeATa_6NUYgj08haHRsseim3WQkEhHB9bQpuyI8yk8kZOt4Sy-BslZS_N9cUsN4dn311Gc5ZOEm8s7EWDs3AK-5BL5JQV74UmctSj45aXjsSraaMVXYYZNsuBtwyZBZvJp3YZyP0OQVxdaiXmRMzhz1O7BjzeNJB1Tl6scrlHvoTmqDY1SbiYoTvE8ORKjHaA95Rk71_2f3A5zzRLMgB3vpNXmMUq7LS88zpZZJdgCngqC3A6jjmaR3Ws7QG7bEezST4c-uOKlMLw6W0z-x4OuaMpAD13kZtsEB7-YXWy_ey64uS6IBp33QUNP1umNnzuz7Py-KT4bSCkCZ0_kXx30-lvM_Kx-WbvH5XNP1PIqRZYBDeig056svV7l=w644-h434-no',
     alt: 'A treemap for top sales data in three categories.',
     link: 'https://codepen.io/Oddert/full/rZMNby/'
-  }
   },
   {
     title: 'USA Educational Data Choropleth',
