@@ -45,6 +45,22 @@ const data = [
     alt: 'Stock market tracker',
     link: 'https://glitch.com/edit/#!/crimson-bandana?path=README.md:1:0'
   }
+  },
+  {
+    title: 'Product Category Tree Map',
+    description: 'A tree map with variable inputs to display top sales in the categories of ‘Video Games’, ‘Movies’, and top funded Kickstarter campaigns.',
+    img: 'https://lh3.googleusercontent.com/FpJXAGDdzqwkZeCUcpp0KPuOrRmURDdj1zQkriBrj1n2ivBgN5eqpiHMFUa0QTdwv0J6l830S99V4VfLqL1vm8ZhykQTmujFD-cKz4tEygxbvwfKfVZcG9oIkzS1Godvu_dxMM1GuGwIo-t8aVeV-zDPF_6QBZJVjKMkQnUcnVjsM7qdFNifAEFikKgzDpO12sueYjOJVKU3QALSDRy3WryUbPLWa88v50883ZmZa-ju8CrRyYCHOO9Wx6DJ5_U6cva5LNZeATa_6NUYgj08haHRsseim3WQkEhHB9bQpuyI8yk8kZOt4Sy-BslZS_N9cUsN4dn311Gc5ZOEm8s7EWDs3AK-5BL5JQV74UmctSj45aXjsSraaMVXYYZNsuBtwyZBZvJp3YZyP0OQVxdaiXmRMzhz1O7BjzeNJB1Tl6scrlHvoTmqDY1SbiYoTvE8ORKjHaA95Rk71_2f3A5zzRLMgB3vpNXmMUq7LS88zpZZJdgCngqC3A6jjmaR3Ws7QG7bEezST4c-uOKlMLw6W0z-x4OuaMpAD13kZtsEB7-YXWy_ey64uS6IBp33QUNP1umNnzuz7Py-KT4bSCkCZ0_kXx30-lvM_Kx-WbvH5XNP1PIqRZYBDeig056svV7l=w644-h434-no',
+    alt: 'A treemap for top sales data in three categories.',
+    link: 'https://codepen.io/Oddert/full/rZMNby/'
+  }
+  },
+  {
+    title: 'USA Educational Data Choropleth',
+    description: 'A choropleth map of all counties in the US representing the portion of the population with a Bachelors degree or higher.',
+    img: 'https://lh3.googleusercontent.com/o5S82_8QtlG8JZz8ZLdVQNebZa9BidPaOG7ZXxZmdzDLUeogU87Fxnhq79zbSPDxB38zqteJRF1KPdRL0K8GfoGZ0qwZBphgOhRE1nl44hSVRgBYPpEnKr4H1RcRadXJC0-rb9K-Tj6aIEemSTHEsy2otKAIZQBi0Xrjii29SMf9snSjFkRKMZsm33aEtp_4MnqA4ZNHqNe0Vc8ivrPtb8AAUtq7qAU9q4z9Z5ZaHswynHDnAlG6BHb6rJKNGP76ZZ4LqLnokWNOtsSwIG04wODOfkHlBCZLlp1IKdBckM3VACyo0aPlJcjjB_LoB0Yxq_kdM_gU_OqIpA2mB9Dwb86CyYKIlJX6PhI9ngUJqRir3jVBFEcpMG6W0C0gEEgnn2nrvytDPvxw1PoQHL0LjZm-IszKYpxCJ0ggbn9NTNCjMCC9TvwWr0LzwU8JHUdTE56N1E_Ap9BXWieRzs4V6N7SxJ239TaPS3LaedoslBTtbfiD5a0gPizMRHp6IYTsxw_B1ZUKXZD73q_s85rgsSLAfKeGL8HSSAjEDUkveH2-_3M3WH7tl5eNr9azCZgCkAT7q1FeHFAbPn9ezIkex0oY7htY9xOXUSOfhuLfjZJ5stEyySpilPeOLKDlrniC=w644-h432-no',
+    alt: 'USA Educational Data Choropleth',
+    link: 'https://codepen.io/Oddert/full/NLjRvE/'
+  }
 ];
 
 
