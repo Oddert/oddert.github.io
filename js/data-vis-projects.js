@@ -48,7 +48,7 @@ const data = [
   {
     title: 'Product Category Tree Map',
     description: 'A tree map with variable inputs to display top sales in the categories of ‘Video Games’, ‘Movies’, and top funded Kickstarter campaigns.',
-    img: 'https://lh3.googleusercontent.com/FpJXAGDdzqwkZeCUcpp0KPuOrRmURDdj1zQkriBrj1n2ivBgN5eqpiHMFUa0QTdwv0J6l830S99V4VfLqL1vm8ZhykQTmujFD-cKz4tEygxbvwfKfVZcG9oIkzS1Godvu_dxMM1GuGwIo-t8aVeV-zDPF_6QBZJVjKMkQnUcnVjsM7qdFNifAEFikKgzDpO12sueYjOJVKU3QALSDRy3WryUbPLWa88v50883ZmZa-ju8CrRyYCHOO9Wx6DJ5_U6cva5LNZeATa_6NUYgj08haHRsseim3WQkEhHB9bQpuyI8yk8kZOt4Sy-BslZS_N9cUsN4dn311Gc5ZOEm8s7EWDs3AK-5BL5JQV74UmctSj45aXjsSraaMVXYYZNsuBtwyZBZvJp3YZyP0OQVxdaiXmRMzhz1O7BjzeNJB1Tl6scrlHvoTmqDY1SbiYoTvE8ORKjHaA95Rk71_2f3A5zzRLMgB3vpNXmMUq7LS88zpZZJdgCngqC3A6jjmaR3Ws7QG7bEezST4c-uOKlMLw6W0z-x4OuaMpAD13kZtsEB7-YXWy_ey64uS6IBp33QUNP1umNnzuz7Py-KT4bSCkCZ0_kXx30-lvM_Kx-WbvH5XNP1PIqRZYBDeig056svV7l=w644-h434-no',
+    img: 'https://lh3.googleusercontent.com/ih4Y1IEY7o8KHFAzZZGKiEYhoGab9gWS5g9urQITaECxF2JY13J8btpZHGQFawlhF1dWp_XY91-0TWBVTwKDEAdJkJlLNvBt5B_nKxESFr-cOttKwYrB3jnaBgRQgvviJzQ41Y9nCqmjPQjaq2SpaamBVsV6cahJgmdi0Pv_dt8CtfmP2e8c166r7zKFNgxMkZVM25N_uFFrA1LEFoI6D6bS8LEIX9cXzeji0HkAA1eg_GrXziuuRkrEnhd86FkcmKlH6b-25EoyjJNQMKX56LyvdPtXTJybG__EmhCs9jR-el1v6g11CnPh1xQqdYbxKi26UGvbZdJkVygireb_mjeuXEPIBYgJPq_i6oI5PZwadEJP92HMkvhNc9UjJJEIZPZO9BkI4BFHo9LkJ98Vy9bqCntQ3fqtSrkRI-jAPsnTCJx6OKDR0edzjSIWtR1GGmH0tuYqXXK03ojaU5WNdI0xfxBOYlnhZYzUDJVc46Vws1uy3r4nkbnUCfAIKCUuavVepTtmWsF9f48Qgl7UcQ931JiVIwJQcpMntdyyZJFOu1dGRWlC-tOU_hFd-OJZckSU0G4FMxnd4rh6P22pnsWzyWv4BMSFxMzclNTHPI4D1jEMDEqLfAp0vXwdDIYV=w1366-h916-no',
     alt: 'A treemap for top sales data in three categories.',
     link: 'https://codepen.io/Oddert/full/rZMNby/'
   },
