@@ -404,6 +404,25 @@
   visibility: visible;
 }
 
+.mailto {
+  flex: 1;
+  border-radius: 20px;
+  border: 1px solid #2dcc70;
+  background-color: white;
+  padding: 16px;
+  transition: 0.2s linear;
+}
+
+.mailto:hover {
+  background-color: #2dcc70;
+  box-shadow: 0px 0px 30px rgba(39,174,97, 0.3);
+  color: #fff;
+}
+
+.mailto:active {
+  background-color: #27ae61;
+}
+
 @keyframes glide {
   0% {
     opacity: 0;
