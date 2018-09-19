@@ -323,7 +323,7 @@
 .page_profile-bio .page_profile-bio-text {
   margin-top: 40px;
   margin-bottom: 80px;
-  white-space: pre-line;
+  /* white-space: pre-line; */
   font-family: verdana, arial;
   font-size: 20px;
   background-color: #F4F4F4;
