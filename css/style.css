@@ -410,6 +410,10 @@
   justify-content: center;
 }
 
+.mailto-container a {
+  flex: 1;
+}
+
 .mailto {
   flex: 1;
   border-radius: 20px;
@@ -417,6 +421,7 @@
   background-color: #F4F4F4;
   padding: 16px;
   transition: 0.2s linear;
+  flex: 1;
 }
 
 .mailto:hover {
