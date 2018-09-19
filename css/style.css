@@ -422,6 +422,7 @@
   padding: 16px;
   transition: 0.2s linear;
   flex: 1;
+  text-align: center;
 }
 
 .mailto:hover {
