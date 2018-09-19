@@ -331,6 +331,10 @@
   border-radius: 20px;
 }
 
+.page_profile-bio .page_profile-bio-text p, .page_profile-bio .page_profile-bio-text a, .page_profile-bio .page_profile-bio-text span {
+  margin: 20px 0px;
+}
+
 .page_profile-links-box {
   margin: 80px 0px;
 }
