@@ -364,9 +364,13 @@
 .social_media_box:hover .social-media-item {
   /* width: 10%; */
 }
-.social_media_box .social-media-item:hover {
+.social_media_box a:hover {
   /* width: 70%; */
   flex: 4;
+}
+
+.social_media_box a {
+  flex: 1;
 }
 
 .social-media-item {
