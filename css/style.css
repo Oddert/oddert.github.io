@@ -373,6 +373,7 @@
 
 .social_media_box a {
   flex: 1;
+  transition: .2s linear;
 }
 
 .social-media-item {
