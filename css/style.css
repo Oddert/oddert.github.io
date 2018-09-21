@@ -359,18 +359,21 @@
   overflow: hidden;
   border-radius: 20px;
   box-shadow: 10px 10px 30px rgba(1, 1, 1, 0.1);
+  display: flex;
 }
 .social_media_box:hover .social-media-item {
-  width: 10%;
+  /* width: 10%; */
 }
 .social_media_box .social-media-item:hover {
-  width: 70%;
+  /* width: 70%; */
+  flex: 4;
 }
 
 .social-media-item {
   line-height: 50px;
-  width: 25%;
-  float: left;
+  /* width: 25%;
+  float: left; */
+  flex: 1;
   height: 100%;
   display: inline-block;
   text-align: center;
