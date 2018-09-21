@@ -188,16 +188,16 @@ var SocialMediaComp = React.createClass({
             { className: 'social-media-item social-media-three' },
             React.createElement('i', { className: 'fa fa-free-code-camp fa-lg' })
           )
-        ),
-        React.createElement(
-          'a',
-          { href: 'https://www.facebook.com/robert.veitch.10?ref=bookmarks', onMouseEnter: this.updateFB, onMouseLeave: this.defaultText },
-          React.createElement(
-            'div',
-            { className: 'social-media-item social-media-four' },
-            React.createElement('i', { className: 'fa fa-facebook fa-lg' })
-          )
-        )
+        )//,
+        // React.createElement(
+        //   'a',
+        //   { href: 'https://www.facebook.com/robert.veitch.10?ref=bookmarks', onMouseEnter: this.updateFB, onMouseLeave: this.defaultText },
+        //   React.createElement(
+        //     'div',
+        //     { className: 'social-media-item social-media-four' },
+        //     React.createElement('i', { className: 'fa fa-facebook fa-lg' })
+        //   )
+        // )
       ),
       React.createElement(
         'p',
