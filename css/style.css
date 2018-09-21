@@ -360,6 +360,7 @@
   border-radius: 20px;
   box-shadow: 10px 10px 30px rgba(1, 1, 1, 0.1);
   display: flex;
+  transition: .2s linear;
 }
 .social_media_box:hover .social-media-item {
   /* width: 10%; */
@@ -367,6 +368,7 @@
 .social_media_box a:hover {
   /* width: 70%; */
   flex: 4;
+  transition: .2s linear;
 }
 
 .social_media_box a {
