@@ -137,7 +137,7 @@ var SocialMediaComp = React.createClass({
   },
   updateLI: function updateLI() {
     this.setState({
-      text: 'https://www.linkedin.com/in/robert-veitch-582aa3b6/'
+      text: 'https://www.linkedin.com/in/robyn-veitch-582aa3b6/'
     });
   },
   updateGH: function updateGH() {
@@ -164,7 +164,7 @@ var SocialMediaComp = React.createClass({
         { className: 'social_media_box' },
         React.createElement(
           'a',
-          { href: 'https://www.linkedin.com/in/robert-veitch-582aa3b6/', onMouseEnter: this.updateLI, onMouseLeave: this.defaultText },
+          { href: 'https://www.linkedin.com/in/robyn-veitch-582aa3b6/', onMouseEnter: this.updateLI, onMouseLeave: this.defaultText },
           React.createElement(
             'div',
             { className: 'social-media-item social-media-one' },
