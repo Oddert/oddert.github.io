@@ -30,7 +30,7 @@ const data = [
   },
   {
     title: 'File Metadata Microservice',
-    description: 'A very basic service to upload files and return a JSON response for the file’s size.',
+    description: 'A basic service to upload files and return a JSON response for the file’s size.',
     img: 'https://lh3.googleusercontent.com/ndx9W0OOgsngcdcKZ6FkLz7NS6efCeBMHZEHtQF95TvAHu44H552MD-akszpVxWHBt2z-G0C-rS9eIxLReqSYADoaznOaCXbOf72qsweTEl_cTzuk0FbJwrWcFpqLKVsJK_uPfpddlxSKJKukuHqjiwfR5cqQ8qRNaDPWoE7OBEv6yfKWHPJYgjr0OcNHTlRwWctcTauJgzJDLNaxMHbnNgUz2vtKDG27l68Xm0iXiSTaSSmBDpJsFTsm8OeGS7cULoLJvvKYMneZuWiNP1Yf73C6qaVrt2eNBlNimgxEbStpJkB8Fel9E9ivkQbRKBjaTqrYwSPVbIAStTtBj2XxUgL--O7AyznWMYoVqkdlG4sqeiVnJjthpL4T74qGqsBnNE_8HrgOnKiUGMK8q2Iete6DmDb7LtEp4AO8ZfH41SAh60hVqEpC3haHSWVY6SQy17qOyymcvnS1G8f5jaeKJ2TwfpX9PgiFvjiDRhbSiPm2W4obxJoGzez3PGStJk5qFolQSjVseXGj3rwg0WALHb2pFvSyDeJ0GRWh35aRCgZQ9IWgBCTva5VT7URv_rZKmf59e0OVjynkOEHNXHnmmdPUbX0AA7GjUhRThKD=w525-h373-no',
     alt: 'File Metadata Microservice screenshot',
     link: 'https://glitch.com/edit/#!/vine-pocket?path=README.md:1:0'
