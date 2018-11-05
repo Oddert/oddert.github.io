@@ -87,14 +87,14 @@ $('section').each(function () {
   }
 });
 
-setInterval(function () {
-
-  if ($('#blink').hasClass('hide')) {
-    $('#blink').removeClass("hide");
-  } else {
-    $('#blink').addClass("hide");
-  }
-}, 700);
+// setInterval(function () {
+//
+//   if ($('#blink').hasClass('hide')) {
+//     $('#blink').removeClass("hide");
+//   } else {
+//     $('#blink').addClass("hide");
+//   }
+// }, 700);
 
 $('#type').html('');
 
