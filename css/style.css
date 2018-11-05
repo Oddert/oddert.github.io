@@ -354,7 +354,7 @@
 }
 
 #blink {
-  animation: blink .7s infinite;
+  animation: blink 1s infinite;
 }
 
 @keyframes blink {
