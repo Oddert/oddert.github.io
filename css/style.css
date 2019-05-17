@@ -37,7 +37,8 @@
   transition: 0.2s linear;
 }
 .navBar .navIcons p {
-  font-family: 'poiret one', arial;
+  font-family: 'poiret one', 'roboto thin', 'Roboto', 'open sans', 'ubuntu', 'Helvetica Neue', helvetica, arial;
+;
   font-size: 18px;
   font-weight: 700;
   display: inline-block;
@@ -139,7 +140,8 @@
   position: relative;
   left: 0px;
   transform: translateY(-50%);
-  font-family: 'open sans', arial;
+  font-family: 'open sans', 'roboto thin', 'Roboto', 'ubuntu', 'poiret one', 'Helvetica Neue', helvetica, arial;
+;
   padding: 30px;
 }
 
@@ -175,7 +177,7 @@
   position: relative;
   left: 0px;
   transform: translateY(-50%);
-  font-family: 'roboto thin', arial;
+  font-family: 'roboto thin', 'Roboto', 'open sans', 'ubuntu', 'poiret one', 'Helvetica Neue', helvetica, arial;
   opacity: 0.8;
 }
 .col-sm-4.project .icon_desc {
@@ -345,7 +347,7 @@
   margin-top: 40px;
   margin-bottom: 80px;
   /* white-space: pre-line; */
-  font-family: verdana, arial;
+  font-family: verdana, arial, helvetica;
   font-size: 20px;
   background-color: #F4F4F4;
   padding: 20px;
