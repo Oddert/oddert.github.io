@@ -209,7 +209,7 @@
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337548/Portfolio/polymat_banner.jpg");
 }
 .col-sm-4.project.zugriff {
-  background-image: url("https://lh3.googleusercontent.com/YCOZE8Q640LHn0FTyLgwDcPpSqK_3-ohaKJw2Ad5sWa4Pwyi-txwMh9SWHVdU7bVJk7SMX8qOLvS82BB-ujcnSCTjsECA7FmDI4T1DKveyYjE682WyKLbhUh97h95im8jJ8rGEEsAu-0liZvvVlWi9sC0yFkaSuJsIgBKqrweTK5KHHcmWiyWUgtknpnzh136YSs-rCdwhO8UbYgB25pKgF-2JJJBcEurjTd1JuBefNEGpOllG9_hhyqxtVPR4_SQcdhBDGi7BehJXt5JJlVt4g00e2yapkM7FL_HHyYbrPHpDjzx2UcRR5UUhMZHyhsaRurLyoGP7vRR6tUvGFlqWJuPt7m2fEd2rWYEKQqSy8NcbnF9ZU1C6V_0Z43frUXknrKWChRdQg-A2OBHiDtVvJjgS_Wq1LiZct0kJbNWf2dA3IgUbp66fiwl0zZ1YcA7AxVHe9kkpilPPI5weh1aTrPkZhA8ipmiVF0_9qi2kCkgNFQpGCNp_IQ83bZ_QhRmaBMc-GQxFmBGJyeNV4xteNvpO_Yny-ojSCwyOuewkuhceLh5DGElqdLy0qkRNmmCt8Dm6Y7NK5bUiWPXi4wQYq5_exXku37jWnk8CC9cQ6CKFNvIZrk2z8Xg3zi2JBniYQTS5ILClnwNtBRRhHGtFefGqlASRwOEZX6jE9OhfYuKAIxvTRSefc=w794-h596-no");
+  background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337551/Portfolio/zugriff_banner.png");
 }
 .col-sm-4.project.station {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337552/Portfolio/4Y_Final_Render_2.jpg");
@@ -221,7 +221,8 @@
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337550/Portfolio/sparda_banner.jpg");
 }
 .col-sm-4.project.margate {
-  background-image: url("https://goo.gl/oEyn6i");
+  /* background-image: url("https://goo.gl/oEyn6i"); */
+  background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571354267/Portfolio/tube_style_map_alt_colors_edited_2.jpg");
 }
 .col-sm-4.project.fusion {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337545/Portfolio/fusion_banner.png");
