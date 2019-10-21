@@ -15,7 +15,7 @@ const navIcon     = document.getElementById('navDrop-icon')
 const navMenu     = document.querySelector('.navDrop-menu')
 const dynamicType = document.getElementById('type')
 
-const sections = document.querySelectorAll('section')
+const sections    = document.querySelectorAll('section')
 
 const windowInitHeight = window.innerHeight
 

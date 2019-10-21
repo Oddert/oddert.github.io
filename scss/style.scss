@@ -143,7 +143,7 @@
   position: relative;
   left: 0px;
   transform: translateY(-50%);
-  font-family: 'open sans', arial;
+  font-family: 'open sans', 'roboto thin', 'Roboto', 'ubuntu', 'poiret one', 'Helvetica Neue', helvetica, arial;
   padding: 30px;
 }
 
@@ -158,8 +158,10 @@
   background-repeat: no-repeat;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
-  & .cover {
-    background-color: rgba(0.8, 0.8, 0.8, 0.75);
+  .cover {
+    /* background-color: rgba(1, 1, 1, 0.75); */
+    // background-color: rgba(0.8, 0.8, 0.8, 0.75);
+    background: linear-gradient(0deg, rgba(1, 1, 1, 0.85), rgba(1,1,1,.45));
     transition: all 0.3s ease-in-out;
     height: 100%;
     width: 100%;
@@ -167,7 +169,7 @@
     left: 0px;
     opacity: 0;
   }
-  & .icon_title {
+  .icon_title {
     transition: all 0.3s ease-in-out;
     background-color: rgba(0.8, 0.8, 0.8, 0.6);
     color: white;
@@ -177,10 +179,10 @@
     position: relative;
     left: 0px;
     transform: translateY(-50%);
-    font-family: 'roboto thin', arial;
+    font-family: 'roboto thin', 'Roboto', 'open sans', 'ubuntu', 'poiret one', 'Helvetica Neue', helvetica, arial;
     opacity: 0.8;
   }
-  & .icon_desc {
+  .icon_desc {
     transition: all 0.3s ease-in-out;
     color: white;
     position: absolute;
@@ -189,85 +191,192 @@
     transform: translateY(-50%);
     width: 100%;
     position: relative;
-    left: 0px;
+    left: 0;
     opacity: 0;
   }
   &:hover {
-    & .cover {
+    .cover {
       opacity: 1;
     }
-    & .icon_title {
-      background-color: rgba(0.8, 0.8, 0.8, 0);
+    .icon_title {
+      // background-color: rgba(0.8, 0.8, 0.8, 0);
+        background-color: rgba(1, 1, 1, 0);
       transform: translateY(0%);
       margin-top: 15px;
       opacity: 1;
     }
-    & .icon_desc {
+    .icon_desc {
       opacity: 1;
       margin-top: 15%;
     }
   }
-  &.station {
-    background-image: url('https://oddert.github.io/folios/station/img/station_banner.jpg');
+  .polymat {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337548/Portfolio/polymat_banner.jpg");
   }
-  &.longevity {
-    background-image: url('https://goo.gl/qtFQKB');
+  .zugriff {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337551/Portfolio/zugriff_banner.png");
   }
-  &.sparda {
-    background-image: url('https://oddert.github.io/folios/sparda/img/sparda_banner.jpg');
+  .station {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337552/Portfolio/4Y_Final_Render_2.jpg");
   }
-  &.margate {
-    background-image: url('https://goo.gl/oEyn6i');
+  .root {
+    background-image: url("/img/root_to_root_banner.jpg");
   }
-  &.fusion {
-    background-image: url('https://oddert.github.io/folios/fusion/img/fusion_banner.png');
+  .sparda {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337550/Portfolio/sparda_banner.jpg");
   }
-  &.thematic {
-    background-image: url('https://oddert.github.io/folios/thematic/img/thematic_banner.png');
+  .margate {
+    /* background-image: url("https://goo.gl/oEyn6i"); */
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571354267/Portfolio/tube_style_map_alt_colors_edited_2.jpg");
   }
-  &.victorinox {
-    background-image: url('https://oddert.github.io/folios/victorinox/img/victorinox_banner.png');
+  .fusion {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337545/Portfolio/fusion_banner.png");
   }
-  &.ccv {
-    background-image: url('https://oddert.github.io/folios/ccv/img/ccv_banner.jpg');
+  .thematic {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/Mini_Folio_Leaflet.png");
   }
-  &.adv_art {
-    background-image: url('https://s-media-cache-ak0.pinimg.com/564x/37/56/99/375699e69ea9ff5b2d479879096a03c0.jpg');
+  .victorinox {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337553/Portfolio/3_Presentation_One.png");
   }
-  &.trid {
-    background-image: url('https://s-media-cache-ak0.pinimg.com/564x/2b/df/87/2bdf87448c5031f66f68000163ab348b.jpg');
+  .ccv {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337549/Portfolio/Render_1_active.jpg");
   }
-  &.arkwright {
-    background-image: url('https://oddert.github.io/folios/arkwright/img/arkwright_banner.jpg');
+  .adv_art {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337546/Portfolio/Mini_Folio_6th_Year_Art.png");
   }
-  &.dog {
-    background-image: url('https://oddert.github.io/folios/higher_assignment/img/higher_assignment_banner.jpg');
+  .trid {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337544/Portfolio/2013-12-25_10.58.49.jpg");
   }
-  &.recipies {
-    background-image: url('https://oddert.github.io/folios/code/img/recipe_book_banner.PNG');
+  .arkwright {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337545/Portfolio/20141029_212323.jpg");
   }
-  &.XO {
-    background-image: url('https://oddert.github.io/folios/code/img/tic_tac_toe_banner.PNG');
+  .dog {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337544/Portfolio/higher_assignment_banner.jpg");
   }
-  &.simon {
-    background-image: url('https://oddert.github.io/folios/code/img/simon_banner.PNG');
+  .longevity {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337545/Portfolio/Killer_Concept_Registered_Trademark.jpg");
   }
-  &.leaderBoard {
-    background-image: url('https://oddert.github.io/folios/code/img/fcc_leader_board_banner.PNG');
+  .dungeon {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337549/Portfolio/dungeon_crawler_banner.png");
   }
-  &.calc {
-    background-image: url('https://oddert.github.io/folios/code/img/js_calculator_banner.PNG');
+  .vote {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337551/Portfolio/voting_app_banner.png");
   }
-  &.moreCode {
-    background-image: url('https://github.com/Oddert/oddert.github.io/blob/master/folios/code/img/more_code_projects.png?raw=true');
+  .nightlife {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/nightlife_app_banner.png");
   }
+  .recipies {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337548/Portfolio/recipe_book_banner.png");
+  }
+  /* .XO {
+    background-image: url("https://lh3.googleusercontent.com/enyQ_Kw2Zf7aOL5xJmn66MEyQKb4LaOoyPkyL8rY7mei12iyHSahywUYZu_iZLAsslfFlbcB6RLShZjFEnYjXq-TItIqGspqgYc5-UEWiR1lzCffE7Pu9tOJNjsZJI2kOK97PaSA2DK57Ur5dnIiWTAW66zkTOjiJP_W1tCaEqgCjSSiWaI2mkWbe5MuHEdsap8KH1qBWgIrwI8jWz2G-U6YnTzNqs-i3d_dN9cbeOLyqJFsZ4I2QF1SEV2l8RcsZJV12edksChVLbtnTP6qLNfYd5DLd3YfbRgjALZsNCMSEvYwgVDU4auekHzIufKs-K9pap6X_V9HFKtQc7T7YiI47jzc-wlWeC6_32B2CEjY-7i_EdLOhWwtNySrA7sFnNilgxrC06_Qhoj4uz15JSG3DwEn3hz7GVeg6X7MD8_KQE2QpH3dIKnqmZEAahZOKCZkrk-D4wDR-2mLiZF2cW8j3SX6a6uEo_b2rY38SxZgJhtQhBcwyP5maKMmUFSdJMTgKYvHpO50E9Q712O2b30Bc0Pe2ghrDlJjiHOGp0jwl2GWBUsV60OwV1McqiEnrKZymjEgYT9Gz-rtUS6s92NUEKwVrk9aE52JEBNV=w1364-h956-no");
+  } */
+  .pinterest {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/pinapathy_banner.png");
+  }
+  .simon {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337550/Portfolio/simon_banner.png");
+  }
+  .stock {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337550/Portfolio/stock_banner.png");
+  }
+  .calc {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337545/Portfolio/js_calculator_banner.png");
+  }
+  .gameOfLife {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/conway2.png");
+  }
+  .notes {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/notes_app.png");
+  }
+  .chess_platform {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/chess_platform.png");
+  }
+  .share_app {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337550/Portfolio/share_app.png");
+  }
+
+  .js30 {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337553/Portfolio/30_days_js.png");
+  }
+  .templates {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571352462/Portfolio/template-sites-banner.png");
+  }
+  .directions_app {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337549/Portfolio/directions_app.png");
+  }
+
+  .datavis {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337549/Portfolio/data_vis_usa_education.png");
+  }
+  .backend {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337546/Portfolio/backend-req-header.png");
+  }
+  .moreCode {
+    background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337546/Portfolio/more_code_projects.png");
+  }
+  // &.station {
+  //   background-image: url('https://oddert.github.io/folios/station/img/station_banner.jpg');
+  // }
+  // &.longevity {
+  //   background-image: url('https://goo.gl/qtFQKB');
+  // }
+  // &.sparda {
+  //   background-image: url('https://oddert.github.io/folios/sparda/img/sparda_banner.jpg');
+  // }
+  // &.margate {
+  //   background-image: url('https://goo.gl/oEyn6i');
+  // }
+  // &.fusion {
+  //   background-image: url('https://oddert.github.io/folios/fusion/img/fusion_banner.png');
+  // }
+  // &.thematic {
+  //   background-image: url('https://oddert.github.io/folios/thematic/img/thematic_banner.png');
+  // }
+  // &.victorinox {
+  //   background-image: url('https://oddert.github.io/folios/victorinox/img/victorinox_banner.png');
+  // }
+  // &.ccv {
+  //   background-image: url('https://oddert.github.io/folios/ccv/img/ccv_banner.jpg');
+  // }
+  // &.adv_art {
+  //   background-image: url('https://s-media-cache-ak0.pinimg.com/564x/37/56/99/375699e69ea9ff5b2d479879096a03c0.jpg');
+  // }
+  // &.trid {
+  //   background-image: url('https://s-media-cache-ak0.pinimg.com/564x/2b/df/87/2bdf87448c5031f66f68000163ab348b.jpg');
+  // }
+  // &.arkwright {
+  //   background-image: url('https://oddert.github.io/folios/arkwright/img/arkwright_banner.jpg');
+  // }
+  // &.dog {
+  //   background-image: url('https://oddert.github.io/folios/higher_assignment/img/higher_assignment_banner.jpg');
+  // }
+  // &.recipies {
+  //   background-image: url('https://oddert.github.io/folios/code/img/recipe_book_banner.PNG');
+  // }
+  // &.XO {
+  //   background-image: url('https://oddert.github.io/folios/code/img/tic_tac_toe_banner.PNG');
+  // }
+  // &.simon {
+  //   background-image: url('https://oddert.github.io/folios/code/img/simon_banner.PNG');
+  // }
+  // &.leaderBoard {
+  //   background-image: url('https://oddert.github.io/folios/code/img/fcc_leader_board_banner.PNG');
+  // }
+  // &.calc {
+  //   background-image: url('https://oddert.github.io/folios/code/img/js_calculator_banner.PNG');
+  // }
+  // &.moreCode {
+  //   background-image: url('https://github.com/Oddert/oddert.github.io/blob/master/folios/code/img/more_code_projects.png?raw=true');
+  // }
 }
 .green {
   background-color: rgba(39, 174, 97, 0.3);
 }
 
 .folio_code_sep {
-  box-shadow: 0px 0px 30px rgba(0.8, 0.8, 0.8, 0.1);
+  // box-shadow: 0px 0px 30px rgba(0.8, 0.8, 0.8, 0.1);
+    box-shadow: 0px 0px 30px rgba(1, 1, 1, 0.1);
   padding: 10px;
   margin: 80px;
   border-radius: 20px;
@@ -287,7 +396,8 @@
   width: 150px;
   border-radius: 50%;
   margin: 20px 0px;
-  box-shadow: 10px 10px 30px rgba(0.8,0.8,0.8,0.2);
+  // box-shadow: 10px 10px 30px rgba(0.8,0.8,0.8,0.2);
+  box-shadow: 10px 10px 30px rgba(1, 1, 1, 0.2);
 }
 
 .page_profile-bio {
@@ -295,8 +405,8 @@
   & .page_profile-bio-text {
     margin-top: 40px;
     margin-bottom: 80px;
-    white-space: pre-line;
-    font-family: verdana, arial;
+    // white-space: pre-line;
+    font-family: verdana, arial, helvetica;
     font-size: 20px;
     background-color: #F4F4F4;
     padding: 20px;
@@ -305,7 +415,9 @@
 }
 
 .page_profile-bio-text {
-  
+  p, a, span {
+    margin: 20px 0px;
+  }
 }
 
 .page_profile-links-box {
@@ -316,8 +428,20 @@
   margin-top: 20px;
 }
 
+#blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1 }
+  49% { opacity: 1 }
+  50% { opacity: 0 }
+  99% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
 .social_media_box-container {
-  &>p {
+  & > p {
     margin-top: 20px;
     font-size: 16px;
     color: #bec3c7;
@@ -333,23 +457,34 @@
   height: 50px;
   overflow: hidden;
   border-radius: 20px;
-  box-shadow: 10px 10px 30px rgba(0.8, 0.8, 0.8, 0.1);
+  // box-shadow: 10px 10px 30px rgba(0.8, 0.8, 0.8, 0.1);
+  box-shadow: 10px 10px 30px rgba(1, 1, 1, 0.1);
+  display: flex;
+  transition: .2s linear;
   &:hover {
     & .social-media-item {
-      width: 10%;
+      // width: 10%;
     }
   }
   & .social-media-item:hover {
-    width: 70%;
+    // width: 70%;
+    flex: 4;
+    transition: .2s linear;
+  }
+  a {
+    flex: 1;
+    transition: .2s linear;
   }
 }
 
 .social-media-item {
   line-height: 50px;
-  width: 25%;
-  float: left;
+  // width: 25%;
+  // float: left;
+  flex: 1;
+  width: auto;
   height: 100%;
-  display: inline-block;
+  // display: inline-block;
   text-align: center;
   transition: 0.25s linear;
   &.social-media-one {
@@ -372,7 +507,8 @@
 
 .footer_main {
   padding: 20px;
-  box-shadow: 0px -15px 20px rgba(0.8,0.8,0.8,0.1);
+  // box-shadow: 0px -15px 20px rgba(0.8,0.8,0.8,0.1);
+  box-shadow: 0px -15px 20px rgba(1, 1, 1, 0.1);
 }
 
 
@@ -385,6 +521,35 @@
   animation-duration: 1s;
   visibility: visible;
 }
+
+.mailto-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  a {
+    flex: 1;
+  }
+  .mailto {
+    flex: 1;
+    border-radius: 20px;
+    border: 2px solid #2dcc70;
+    background-color: #F4F4F4;
+    padding: 16px;
+    transition: 0.2s linear;
+    flex: 1;
+    text-align: center;
+    &:hover {
+      background-color: #2dcc70;
+      box-shadow: 0px 0px 30px rgba(39,174,97, 0.3);
+      color: #fff;
+    }
+    &:active {
+      background-color: #27ae61;
+    }
+  }
+}
+
+
 
 @keyframes glide {
   0% {
