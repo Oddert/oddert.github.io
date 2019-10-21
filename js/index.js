@@ -11,6 +11,7 @@ const headerImage = document.getElementById('header_image')
 const headerCover = document.getElementById('header_cover')
 const pageTwo     = document.getElementById('page_two')
 const pageProfile = document.getElementById('page_profile')
+const navButton   = document.querySelector('.navDrop')
 const navIcon     = document.getElementById('navDrop-icon')
 const navMenu     = document.querySelector('.navDrop-menu')
 const dynamicType = document.getElementById('type')
@@ -77,9 +78,9 @@ function handleResize () {
 window.addEventListener('scroll', debounce(handleScroll))
 window.addEventListener('resize', handleResize)
 
-navMenu.onclick = () => {
-  $('.navDrop-menu').slideToggle()
-  $('#navDrop-icon').toggleClass('rotate')
+navButton.onclick = () => {
+  $(navMenu).slideToggle()
+  $(navIcon).toggleClass('rotate')
 }
 
 // $('.project').each(function () {

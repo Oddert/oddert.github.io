@@ -103,21 +103,6 @@
   }
 }
 
-@media only screen and (max-width: 764px) {
-  .navIcons {
-    display: none;
-  }
-  .navDrop {
-    display: block;
-  }
-}
-
-@media only screen and (min-width: 764px) {
-  .navDrop-menu {
-    display: none;
-  }
-}
-
 #page_two {
   margin-top: 300px;
 }
@@ -566,4 +551,22 @@
 .divider {
   width: 100%;
   border: 5px dashed red;
+}
+
+@media only screen and (max-width: 764px) {
+  .navIcons {
+    display: none;
+  }
+  .navDrop {
+    display: block;
+  }
+  .folio_code_sep {
+    margin: 20px 10px;
+  }
+}
+
+@media only screen and (min-width: 764px) {
+  .navDrop-menu {
+    display: none;
+  }
 }
