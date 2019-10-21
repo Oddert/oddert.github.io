@@ -6,62 +6,64 @@ const logoText = 'https://oddert.github.io/img/logo_five.png';
 let headerInitHeight, headerShrink;
 let coordinateActive = false;
 
-const header = document.getElementById('header')
-const pageTwo = document.getElementById('page_two')
-const navIcon = document.getElementById('navDrop-icon')
-const navMenu = document.querySelector('.navDrop-menu')
+const header      = document.getElementById('header')
+const headerImage = document.getElementById('header_image')
+const headerCover = document.getElementById('header_cover')
+const pageTwo     = document.getElementById('page_two')
+const pageProfile = document.getElementById('page_profile')
+const navIcon     = document.getElementById('navDrop-icon')
+const navMenu     = document.querySelector('.navDrop-menu')
 const dynamicType = document.getElementById('type')
+
+const sections = document.querySelectorAll('section')
 
 const windowInitHeight = window.innerHeight
 
 header.style.height = windowInitHeight
 pageTwo.style.marginTop = windowInitHeight + 80
-headerInitHeight = header.clientHeight
+headerInitHeight = windowInitHeight
 headerShrink = headerInitHeight - 50;
 
 function handleScroll () {
-  //changeHead();
-  var winScroll = $(window).scrollTop();
-  var diffirence = headerInitHeight - winScroll;
+  const winScroll = window.scrollY
+  const diffirence = headerInitHeight - winScroll;
 
   if (diffirence <= 50) {
-    $("#header").css({ height: 50 });
+    header.style.height = '50px'
   } else if (diffirence > 50 && diffirence <= headerInitHeight) {
-    $("#header").css({ height: diffirence });
+    header.style.height = `${diffirence}px`
   } else {
-    $("#header").css({ height: headerInitHeight });
+    header.style.height = `${headerInitHeight}px`
   }
 
   if (diffirence <= 50) {
-    $('#header_image').css({
-      'left': '0',
-      'top': '0',
-      'transform': 'translateX(0%) translateY(0%) rotate(45deg)'
-    });
-    $('#header_image').attr('src', logoNoText);
-    $('#header_cover').hide();
+    headerImage.style.left = '0'
+    headerImage.style.top = '0'
+    headerImage.style.transform = 'translateX(0%) translateY(0%) rotate(45deg)'
+    headerImage.src = logoNoText
+    headerCover.style.display = 'none'
   } else {
-    $('#header_image').css({
-      'left': '50%',
-      'top': '50%',
-      'transform': 'translateX(-50%) translateY(-50%)'
-    });
-    $('#header_image').attr('src', logoText);
-    $('#header_cover').show();
-  } //Toggle image to icon
+    headerImage.style.left = '50%'
+    headerImage.style.top = '50%'
+    headerImage.style.transform = 'translateX(-50%) translateY(-50%)'
+    headerImage.src = logoText
+    headerCover.style.display = null
+  }
 
-  $('.anim').each(function () {
-    var winScroll = $(window).scrollTop();
-    var thisOffset = $(this).offset().top;
-    if (thisOffset < winScroll + 600) {
-      $(this).addClass('anim_active');
-    }
-  }); //Animate elements into screen
+  // $('.anim').each(function () {
+  //   var winScroll = $(window).scrollTop();
+  //   var thisOffset = $(this).offset().top;
+  //   if (thisOffset < winScroll + 600) {
+  //     $(this).addClass('anim_active');
+  //   }
+  // }); //Animate elements into screen
 
-  if ($(window).scrollTop() >= $('#page_profile').offset().top - 400 && coordinateActive === false) {
-    cordinate();
+  if (
+    winScroll >= pageProfile.offsetTop - 400 &&
+    coordinateActive === false
+  ) {
+    animateProfileText();
     coordinateActive = true;
-    //console.log("Scrolled to profile page");
   }
 }
 
@@ -72,28 +74,28 @@ function handleResize () {
   }
 }
 
-window.addEventListener('scroll', handleScroll)
+window.addEventListener('scroll', debounce(handleScroll))
 window.addEventListener('resize', handleResize)
 
-$('.navDrop').on('click', function () {
+navMenu.onclick = () => {
   $('.navDrop-menu').slideToggle()
   $('#navDrop-icon').toggleClass('rotate')
-}); //Toggle the navigation on button click
+}
 
-$('.project').each(function () {
-  $(this).addClass('anim')
-})
+// $('.project').each(function () {
+//   $(this).addClass('anim')
+// })
+//
+// $('.page_profile-bio').each(function () {
+//   $(this).addClass('anim')
+// })
 
-$('.page_profile-bio').each(function () {
-  $(this).addClass('anim')
-})
-
-$('section').each(function () {
-  var winHeight = $(window).height()
-  var thisHeight = $(this).find('.content').outerHeight()
-
-  if (thisHeight < winHeight) {
-    $(this).css({ 'height': winHeight })
+sections.forEach(each => {
+  const winHeight = window.innerHeight
+  const content = each.querySelector('.content')
+  if (!content) return
+  if (content.clientHeight < winHeight) {
+    each.style.height = `${winHeight}px`
   }
 })
 
@@ -101,15 +103,15 @@ $('section').each(function () {
 
 dynamicType.innerHTML = ''
 
-const updateType = text => dynamicType.textContent = text
+const updateTypeElem = text => dynamicType.textContent = text
 
-function updateTypeTwo(len) {
+function updateTypeTwo (len) {
   var str = "Hello. My name is Robyn and I'm a problem solver.";
-  var cut = str.slice(0, len);
-  updateType(cut);
+  var cut = str.slice (0, len);
+  updateTypeElem (cut);
 }
 
-function cordinate() {
+function animateProfileText () {
   var track = 0;
   var end = false;
   var interv = setInterval(function () {
@@ -117,7 +119,6 @@ function cordinate() {
       updateTypeTwo(track);
       track++;
     }
-
     if (track >= 50) {
       clearInterval(interv);
     }
@@ -243,4 +244,18 @@ UAL
 research
 */
 
-/* PUSHED TO GITHUB 29/9/17 23:10 */
+/* PUSHED TO GITHUB 29/9/17 23:10 */ // ??
+function debounce(func, w=20, now) {
+  var t;
+  return function executedFunction() {
+    var c = this;
+    var a = arguments;
+    var l = function() {
+      t = null;
+      if (!now) func.apply(c,a);
+    };
+    clearTimeout(t);
+    t = setTimeout(l,w);
+    if (now&&!timeout) func.apply(c,a);
+  };
+};
