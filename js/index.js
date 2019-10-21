@@ -171,7 +171,7 @@ var SocialMediaComp = React.createClass({
           React.createElement(
             'div',
             { className: 'social-media-item social-media-one' },
-            React.createElement('i', { className: 'fa fa-linkedin fa-lg' })
+            React.createElement('i', { className: 'fab fa-linkedin fa-lg' })
           )
         ),
         React.createElement(
@@ -180,7 +180,7 @@ var SocialMediaComp = React.createClass({
           React.createElement(
             'div',
             { className: 'social-media-item social-media-two' },
-            React.createElement('i', { className: 'fa fa-github fa-lg' })
+            React.createElement('i', { className: 'fab fa-github fa-lg' })
           )
         ),
         React.createElement(
@@ -189,7 +189,7 @@ var SocialMediaComp = React.createClass({
           React.createElement(
             'div',
             { className: 'social-media-item social-media-three' },
-            React.createElement('i', { className: 'fa fa-free-code-camp fa-lg' })
+            React.createElement('i', { className: 'fab fa-free-code-camp fa-lg' })
           )
         )//,
         // React.createElement(
@@ -198,7 +198,7 @@ var SocialMediaComp = React.createClass({
         //   React.createElement(
         //     'div',
         //     { className: 'social-media-item social-media-four' },
-        //     React.createElement('i', { className: 'fa fa-facebook fa-lg' })
+        //     React.createElement('i', { className: 'fab fa-facebook fa-lg' })
         //   )
         // )
       ),
