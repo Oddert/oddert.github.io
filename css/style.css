@@ -154,7 +154,7 @@
   background-repeat: no-repeat;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
-  /* .XO {
+  /* &.XO {
     background-image: url("https://lh3.googleusercontent.com/enyQ_Kw2Zf7aOL5xJmn66MEyQKb4LaOoyPkyL8rY7mei12iyHSahywUYZu_iZLAsslfFlbcB6RLShZjFEnYjXq-TItIqGspqgYc5-UEWiR1lzCffE7Pu9tOJNjsZJI2kOK97PaSA2DK57Ur5dnIiWTAW66zkTOjiJP_W1tCaEqgCjSSiWaI2mkWbe5MuHEdsap8KH1qBWgIrwI8jWz2G-U6YnTzNqs-i3d_dN9cbeOLyqJFsZ4I2QF1SEV2l8RcsZJV12edksChVLbtnTP6qLNfYd5DLd3YfbRgjALZsNCMSEvYwgVDU4auekHzIufKs-K9pap6X_V9HFKtQc7T7YiI47jzc-wlWeC6_32B2CEjY-7i_EdLOhWwtNySrA7sFnNilgxrC06_Qhoj4uz15JSG3DwEn3hz7GVeg6X7MD8_KQE2QpH3dIKnqmZEAahZOKCZkrk-D4wDR-2mLiZF2cW8j3SX6a6uEo_b2rY38SxZgJhtQhBcwyP5maKMmUFSdJMTgKYvHpO50E9Q712O2b30Bc0Pe2ghrDlJjiHOGp0jwl2GWBUsV60OwV1McqiEnrKZymjEgYT9Gz-rtUS6s92NUEKwVrk9aE52JEBNV=w1364-h956-no");
   } */
 }
@@ -206,104 +206,104 @@
   opacity: 1;
   margin-top: 15%;
 }
-.col-sm-4.project .polymat {
+.col-sm-4.project.polymat {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337548/Portfolio/polymat_banner.jpg");
 }
-.col-sm-4.project .zugriff {
+.col-sm-4.project.zugriff {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337551/Portfolio/zugriff_banner.png");
 }
-.col-sm-4.project .station {
+.col-sm-4.project.station {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337552/Portfolio/4Y_Final_Render_2.jpg");
 }
-.col-sm-4.project .root {
+.col-sm-4.project.root {
   background-image: url("/img/root_to_root_banner.jpg");
 }
-.col-sm-4.project .sparda {
+.col-sm-4.project.sparda {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337550/Portfolio/sparda_banner.jpg");
 }
-.col-sm-4.project .margate {
+.col-sm-4.project.margate {
   /* background-image: url("https://goo.gl/oEyn6i"); */
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571354267/Portfolio/tube_style_map_alt_colors_edited_2.jpg");
 }
-.col-sm-4.project .fusion {
+.col-sm-4.project.fusion {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337545/Portfolio/fusion_banner.png");
 }
-.col-sm-4.project .thematic {
+.col-sm-4.project.thematic {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/Mini_Folio_Leaflet.png");
 }
-.col-sm-4.project .victorinox {
+.col-sm-4.project.victorinox {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337553/Portfolio/3_Presentation_One.png");
 }
-.col-sm-4.project .ccv {
+.col-sm-4.project.ccv {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337549/Portfolio/Render_1_active.jpg");
 }
-.col-sm-4.project .adv_art {
+.col-sm-4.project.adv_art {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337546/Portfolio/Mini_Folio_6th_Year_Art.png");
 }
-.col-sm-4.project .trid {
+.col-sm-4.project.trid {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337544/Portfolio/2013-12-25_10.58.49.jpg");
 }
-.col-sm-4.project .arkwright {
+.col-sm-4.project.arkwright {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337545/Portfolio/20141029_212323.jpg");
 }
-.col-sm-4.project .dog {
+.col-sm-4.project.dog {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337544/Portfolio/higher_assignment_banner.jpg");
 }
-.col-sm-4.project .longevity {
+.col-sm-4.project.longevity {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337545/Portfolio/Killer_Concept_Registered_Trademark.jpg");
 }
-.col-sm-4.project .dungeon {
+.col-sm-4.project.dungeon {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337549/Portfolio/dungeon_crawler_banner.png");
 }
-.col-sm-4.project .vote {
+.col-sm-4.project.vote {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337551/Portfolio/voting_app_banner.png");
 }
-.col-sm-4.project .nightlife {
+.col-sm-4.project.nightlife {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/nightlife_app_banner.png");
 }
-.col-sm-4.project .recipies {
+.col-sm-4.project.recipies {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337548/Portfolio/recipe_book_banner.png");
 }
-.col-sm-4.project .pinterest {
+.col-sm-4.project.pinterest {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/pinapathy_banner.png");
 }
-.col-sm-4.project .simon {
+.col-sm-4.project.simon {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337550/Portfolio/simon_banner.png");
 }
-.col-sm-4.project .stock {
+.col-sm-4.project.stock {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337550/Portfolio/stock_banner.png");
 }
-.col-sm-4.project .calc {
+.col-sm-4.project.calc {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337545/Portfolio/js_calculator_banner.png");
 }
-.col-sm-4.project .gameOfLife {
+.col-sm-4.project.gameOfLife {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/conway2.png");
 }
-.col-sm-4.project .notes {
+.col-sm-4.project.notes {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/notes_app.png");
 }
-.col-sm-4.project .chess_platform {
+.col-sm-4.project.chess_platform {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337547/Portfolio/chess_platform.png");
 }
-.col-sm-4.project .share_app {
+.col-sm-4.project.share_app {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337550/Portfolio/share_app.png");
 }
-.col-sm-4.project .js30 {
+.col-sm-4.project.js30 {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337553/Portfolio/30_days_js.png");
 }
-.col-sm-4.project .templates {
+.col-sm-4.project.templates {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571352462/Portfolio/template-sites-banner.png");
 }
-.col-sm-4.project .directions_app {
+.col-sm-4.project.directions_app {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337549/Portfolio/directions_app.png");
 }
-.col-sm-4.project .datavis {
+.col-sm-4.project.datavis {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337549/Portfolio/data_vis_usa_education.png");
 }
-.col-sm-4.project .backend {
+.col-sm-4.project.backend {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337546/Portfolio/backend-req-header.png");
 }
-.col-sm-4.project .moreCode {
+.col-sm-4.project.moreCode {
   background-image: url("https://res.cloudinary.com/oddert/image/upload/v1571337546/Portfolio/more_code_projects.png");
 }
 
@@ -312,7 +312,7 @@
 }
 
 .folio_code_sep {
-  box-shadow: 0px 0px 30px rgba(1, 1, 1, 0.1);
+  box-shadow: 0 10px 38px rgba(0, 0, 0, 0.15);
   padding: 10px;
   margin: 80px;
   border-radius: 20px;
