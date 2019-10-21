@@ -1,25 +1,18 @@
 'use strict';
 
-const logoNoText = 'https://oddert.github.io/img/logo_no_text.png';
-const logoText = 'https://oddert.github.io/img/logo_five.png';
+var logoNoText = 'https://oddert.github.io/img/logo_no_text.png';
+var logoText = 'https://oddert.github.io/img/logo_five.png';
 
-let headerInitHeight, headerShrink;
-let coordinateActive = false;
+var headerInitHeight, headerShrink;
 
-const header = document.getElementById('header')
-const pageTwo = document.getElementById('page_two')
-const navIcon = document.getElementById('navDrop-icon')
-const navMenu = document.querySelector('.navDrop-menu')
-const dynamicType = document.getElementById('type')
-
-const windowInitHeight = window.innerHeight
-
-header.style.height = windowInitHeight
-pageTwo.style.marginTop = windowInitHeight + 80
-headerInitHeight = header.clientHeight
+var windowInitHeight = $(window).height();
+$('#header').css({ 'height': windowInitHeight });
+$('#page_two').css({ 'margin-top': windowInitHeight + 80 });
+headerInitHeight = $("#header").height();
 headerShrink = headerInitHeight - 50;
+var coordinateActive = false;
 
-function handleScroll () {
+$(window).scroll(function () {
   //changeHead();
   var winScroll = $(window).scrollTop();
   var diffirence = headerInitHeight - winScroll;
@@ -63,45 +56,51 @@ function handleScroll () {
     coordinateActive = true;
     //console.log("Scrolled to profile page");
   }
-}
+}); //Window scroll
 
-function handleResize () {
-  if (window.innerHeight >= 764) {
-    navMenu.style.display = 'none'
-    navIcon.classList.remove('rotate')
+$(window).resize(function () {
+  if ($(window).width() >= 764) {
+    $('.navDrop-menu').css({ 'display': 'none' });
+    $('#navDrop-icon').removeClass('rotate');
   }
-}
-
-window.addEventListener('scroll', handleScroll)
-window.addEventListener('resize', handleResize)
+}); //Toggle navigation on size
 
 $('.navDrop').on('click', function () {
-  $('.navDrop-menu').slideToggle()
-  $('#navDrop-icon').toggleClass('rotate')
+  $('.navDrop-menu').slideToggle();
+  $('#navDrop-icon').toggleClass('rotate');
 }); //Toggle the navigation on button click
 
 $('.project').each(function () {
-  $(this).addClass('anim')
-})
+  $(this).addClass('anim');
+}); //couldn't be bothered adding manually
 
 $('.page_profile-bio').each(function () {
-  $(this).addClass('anim')
-})
+  $(this).addClass('anim');
+}); //Past oddert actually saved yer arse by adding anim after load
 
 $('section').each(function () {
-  var winHeight = $(window).height()
-  var thisHeight = $(this).find('.content').outerHeight()
+  var winHeight = $(window).height();
+  var thisHeight = $(this).find('.content').outerHeight();
 
   if (thisHeight < winHeight) {
-    $(this).css({ 'height': winHeight })
+    $(this).css({ 'height': winHeight });
   }
-})
+});
 
+// setInterval(function () {
+//
+//   if ($('#blink').hasClass('hide')) {
+//     $('#blink').removeClass("hide");
+//   } else {
+//     $('#blink').addClass("hide");
+//   }
+// }, 700);
 
+$('#type').html('');
 
-dynamicType.innerHTML = ''
-
-const updateType = text => dynamicType.textContent = text
+function updateType(text) {
+  $('#type').html(text);
+}
 
 function updateTypeTwo(len) {
   var str = "Hello. My name is Robyn and I'm a problem solver.";
