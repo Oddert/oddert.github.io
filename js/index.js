@@ -75,7 +75,7 @@ function handleResize () {
   }
 }
 
-window.addEventListener('scroll', debounce(handleScroll))
+window.addEventListener('scroll', debounce(handleScroll, 10, true))
 window.addEventListener('resize', handleResize)
 
 navButton.onclick = () => {
@@ -246,17 +246,18 @@ research
 */
 
 /* PUSHED TO GITHUB 29/9/17 23:10 */ // ??
-function debounce(func, w=20, now) {
-  var t;
+function debounce(func, wait, immediate) {
+  var timeout;
   return function executedFunction() {
-    var c = this;
-    var a = arguments;
-    var l = function() {
-      t = null;
-      if (!now) func.apply(c,a);
+    var context = this;
+    var args = arguments;
+    var later = function() {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
     };
-    clearTimeout(t);
-    t = setTimeout(l,w);
-    if (now&&!timeout) func.apply(c,a);
+    var callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
   };
 };
