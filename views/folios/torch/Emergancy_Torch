@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Margate Project</title>
+    <style>
+      .folioImg {
+        width: 100%;
+        border-top: 1px solid black;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  
+<body>
+
+<img src='/folios/torch/img/1.jpg' class='folioImg' alt='Torch Page One'/>
+<img src='/folios/torch/img/5.jpg' class='folioImg' alt='Torch Page Two'/>
+<img src='/folios/torch/img/10.jpg' class='folioImg' alt='Torch Page Three'/>
+<img src='/folios/torch/img/15.jpg' class='folioImg' alt='Torch Page Four'/>
+<img src='/folios/torch/img/20.jpg' class='folioImg' alt='Torch Page Five'/>
+<img src='/folios/torch/img/25.jpg' class='folioImg' alt='Torch Page Six'/>
+<img src='/folios/torch/img/30.jpg' class='folioImg' alt='Torch Page Seven'/>
+<img src='/folios/torch/img/35.jpg' class='folioImg' alt='Torch Page Eight'/>
+<img src='/folios/torch/img/40.jpg' class='folioImg' alt='Torch Page Nine'/>
+<img src='/folios/torch/img/45.jpg' class='folioImg' alt='Torch Page Then'/>
+<img src='/folios/torch/img/50.jpg' class='folioImg' alt='Torch Page Eleven'/>
+<img src='/folios/torch/img/55.jpg' class='folioImg' alt='Torch Page Twelve'/>
+<img src='/folios/torch/img/60.jpg' class='folioImg' alt='Torch Page Thirteen'/>
+<img src='/folios/torch/img/65.jpg' class='folioImg' alt='Torch Page Fourteen'/>
+<img src='/folios/torch/img/70.jpg' class='folioImg' alt='Torch Page Fiveteen'/>
+<img src='/folios/torch/img/75.jpg' class='folioImg' alt='Torch Page Sixteen'/>
+<img src='/folios/torch/img/80.jpg' class='folioImg' alt='Torch Page Seventeen'/>
+<img src='/folios/torch/img/85.jpg' class='folioImg' alt='Torch Page Eighteen'/>
+<img src='/folios/torch/img/90.jpg' class='folioImg' alt='Torch Page NineTeen'/>
+<img src='/folios/torch/img/95.jpg' class='folioImg' alt='Torch Page Twenty'/>
+<img src='/folios/torch/img/100.jpg' class='folioImg' alt='Torch Page Twenty One'/>
+<img src='/folios/torch/img/105.jpg' class='folioImg' alt='Torch Page Twenty Two'/>
+<img src='/folios/torch/img/107.jpg' class='folioImg' alt='Torch Page Twenty Three'/>
+<img src='/folios/torch/img/110.jpg' class='folioImg' alt='Torch Page Twenty Four'/>
+<img src='/folios/torch/img/115.jpg' class='folioImg' alt='Torch Page Twenty Five'/>
+<img src='/folios/torch/img/120.jpg' class='folioImg' alt='Torch Page Twenty Six'/>
+<img src='/folios/torch/img/125.jpg' class='folioImg' alt='Torch Page Twenty Seven'/>
+<img src='/folios/torch/img/130.jpg' class='folioImg' alt='Torch Page Twenty Eight'/>
+<img src='/folios/torch/img/135.jpg' class='folioImg' alt='Torch Page Twenty Nine'/>
+<img src='/folios/torch/img/140.jpg' class='folioImg' alt='Torch Page Thirty'/>
+<img src='/folios/torch/img/145.jpg' class='folioImg' alt='Torch Page Thirty One'/>
+<img src='/folios/torch/img/150.jpg' class='folioImg' alt='Torch Page Thirty Two'/>
+<img src='/folios/torch/img/155.jpg' class='folioImg' alt='Torch Page Thirty Three'/>
+<img src='/folios/torch/img/160.jpg' class='folioImg' alt='Torch Page Thirty Four'/>
+<img src='/folios/torch/img/165.jpg' class='folioImg' alt='Torch Page Thirty Five'/>
+<img src='/folios/torch/img/170.jpg' class='folioImg' alt='Torch Page Thirty Six'/>
+
+</body>
+
+</html>
